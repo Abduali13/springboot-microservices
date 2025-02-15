@@ -1,0 +1,67 @@
+{
+  "hash": "579a0e7d",
+  "configHash": "49927ddf",
+  "lockfileHash": "04868445",
+  "browserHash": "15cf6aad",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "fe7425fc",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "c7277556",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "88e4765f",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "75cbe36c",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "43c63914",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "49b25f53",
+      "needsInterop": false
+    },
+    "angular-auth-oidc-client": {
+      "src": "../../../../../node_modules/angular-auth-oidc-client/fesm2022/angular-auth-oidc-client.mjs",
+      "file": "angular-auth-oidc-client.js",
+      "fileHash": "5e04c283",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-WS6TI2DW": {
+      "file": "chunk-WS6TI2DW.js"
+    },
+    "chunk-6U6XHULN": {
+      "file": "chunk-6U6XHULN.js"
+    },
+    "chunk-CA7EHCFC": {
+      "file": "chunk-CA7EHCFC.js"
+    },
+    "chunk-MEKHBRZD": {
+      "file": "chunk-MEKHBRZD.js"
+    },
+    "chunk-VBMLOIPD": {
+      "file": "chunk-VBMLOIPD.js"
+    }
+  }
+}

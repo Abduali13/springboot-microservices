@@ -1,0 +1,14 @@
+.idea
+.vscode
+mvnw.cmd
+mvnw
+.mvn
+data
+my.cnf
+mysql
+volume-data
+product-service/target
+order-service/target
+notification-service/target
+inventory-service/target
+api-gateway/target

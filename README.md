@@ -1,7 +1,7 @@
 # Spring Microservices Shop
 
 ### Disclaimer!
- I have written this project inspiring by [SaiUpadhyayula](https://github.com/SaiUpadhyayula). Watching his [YouTube tutorial](https://youtu.be/yn_stY3HCr8?si=YpNBuUW4a2r36nSg) video, which is free, I have written this project to learn and try new knowledge in code. Therefore, I do not own this code, however I have written it by myself configuring a few things to make this project runnable on my machine. 
+ I have written this project inspiring by [SaiUpadhyayula](https://github.com/SaiUpadhyayula). Watching his [YouTube tutorial](https://youtu.be/yn_stY3HCr8?si=YpNBuUW4a2r36nSg) video, which is free, I have written this project to learn and try new knowledge in code. However I have written it by myself configuring a new things to make this project runnable on my machine. 
 
 ## Prerequisites
 

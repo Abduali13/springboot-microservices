@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.UUID;
 
 @Slf4j
@@ -21,9 +22,10 @@ public class OrderService {
     private final InventoryClient inventoryClient;
     private final KafkaTemplate<String, OrderPlacedEvent> kafkaTemplate;
 
-    public void placeOrder(OrderRequest orderRequest) {
+    public String placeOrder(OrderRequest orderRequest) {
         String skuCode = orderRequest.skuCode();
         Integer quantity = orderRequest.quantity();
+        System.out.println(orderRequest.userDetails().role());
         boolean inStock = this.inventoryClient.isInStock(skuCode, quantity);
 
         if (inStock) {
@@ -35,20 +37,28 @@ public class OrderService {
 
             orderRepository.save(order);
 
-            OrderPlacedEvent orderPlacedEvent = new OrderPlacedEvent();
-            orderPlacedEvent.setOrderNumber(order.getOrderNumber());
-            orderPlacedEvent.setEmail(orderRequest.userDetails().email());
-            orderPlacedEvent.setFirstName(orderRequest.userDetails().firstName()); // todo: lastName is coming null, fix it
-            orderPlacedEvent.setLastName(orderRequest.userDetails().lastName()); // todo: lastName is coming null, fix it
+            OrderPlacedEvent orderPlacedEvent = getOrderPlacedEvent(orderRequest, order);
             log.info("Start - Sending OrderPlacedEvent {} to Kafka topic order-placed", orderPlacedEvent);
             kafkaTemplate.send("order-placed", orderPlacedEvent);
             log.info("End - Sending OrderPlacedEvent {} to Kafka topic order-placed", orderPlacedEvent);
+
+            return "Order Placed Successfully";
             
 
         } else {
-            throw new RuntimeException("Product with skuCode " + orderRequest.skuCode() + " is not in stock");
+            log.warn("Product with skuCode " + orderRequest.skuCode() + " is not in stock");
+            return "Error with order placement";
         }
 
 
+    }
+
+    private static OrderPlacedEvent getOrderPlacedEvent(OrderRequest orderRequest, Order order) {
+        OrderPlacedEvent orderPlacedEvent = new OrderPlacedEvent();
+        orderPlacedEvent.setOrderNumber(order.getOrderNumber());
+        orderPlacedEvent.setEmail(orderRequest.userDetails().email());
+        orderPlacedEvent.setFirstName(orderRequest.userDetails().firstName());
+        orderPlacedEvent.setLastName(orderRequest.userDetails().lastName());
+        return orderPlacedEvent;
     }
 }

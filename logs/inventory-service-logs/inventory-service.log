@@ -1,0 +1,1074 @@
+2025-06-12T06:06:06.429+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 46286 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:06:06.442+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:06:07.188+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T06:06:07.215+05:00 INFO  [main] Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2025-06-12T06:06:07.659+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T06:06:07.678+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:06:07.678+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:06:07.713+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:06:07.713+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1164 ms
+2025-06-12T06:06:08.051+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T06:06:39.184+05:00 WARN  [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2025-06-12T06:06:40.191+05:00 WARN  [main] Timed out waiting for in-flight spans to send
+2025-06-12T06:06:40.202+05:00 INFO  [main] Stopping service [Tomcat]
+2025-06-12T06:06:40.245+05:00 INFO  [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12T06:06:40.259+05:00 ERROR [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.techie.microservices.inventory.InventoryServiceApplication.main(InventoryServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	... 10 common frames omitted
+Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:71)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:76)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:137)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:176)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798)
+	... 17 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:59)
+	... 23 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:592)
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:516)
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:411)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1331)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 34 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:91)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:130)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:157)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:55)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:72)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:54)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:36)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:586)
+	... 40 common frames omitted
+2025-06-12T06:07:03.636+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 46377 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:07:03.640+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:07:05.399+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T06:07:05.495+05:00 INFO  [main] Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2025-06-12T06:07:07.053+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T06:07:07.065+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:07:07.066+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:07:07.113+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:07:07.113+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 3105 ms
+2025-06-12T06:07:07.951+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T06:07:08.373+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c45191e
+2025-06-12T06:07:08.374+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T06:07:08.461+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T06:07:08.707+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T06:07:08.833+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.105s)
+2025-06-12T06:07:08.963+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T06:07:08.976+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T06:07:09.137+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T06:07:09.212+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T06:07:09.338+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T06:07:09.643+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T06:07:09.802+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T06:07:10.434+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T06:07:10.435+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T06:07:10.838+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T06:07:11.282+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T06:07:12.551+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T06:07:12.672+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T06:07:12.692+05:00 INFO  [main] Started InventoryServiceApplication in 9.798 seconds (process running for 10.527)
+2025-06-12T06:07:13.412+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:07:13.412+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:07:13.414+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T06:40:11.436+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T06:40:11.441+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T06:40:11.459+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T06:40:11.479+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T06:40:11.540+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T06:40:17.237+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 48555 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:40:17.241+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:40:18.754+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T06:40:18.799+05:00 INFO  [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-06-12T06:40:20.032+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T06:40:20.042+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:40:20.064+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:40:20.109+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:40:20.109+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2641 ms
+2025-06-12T06:40:21.193+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T06:40:21.412+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779448b8
+2025-06-12T06:40:21.414+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T06:40:21.486+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T06:40:21.524+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T06:40:21.571+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.037s)
+2025-06-12T06:40:21.631+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T06:40:21.644+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T06:40:21.746+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T06:40:21.790+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T06:40:21.877+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T06:40:22.165+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T06:40:22.233+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T06:40:22.818+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T06:40:22.821+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T06:40:25.537+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T06:40:26.588+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T06:40:28.270+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T06:40:28.426+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T06:40:28.441+05:00 INFO  [main] Started InventoryServiceApplication in 12.301 seconds (process running for 13.551)
+2025-06-12T06:40:28.703+05:00 INFO  [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:40:28.705+05:00 INFO  [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:40:28.710+05:00 INFO  [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 3 ms
+2025-06-12T07:01:50.495+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:01:50.504+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:01:50.552+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:01:50.565+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T07:01:50.606+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T07:02:00.205+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 51027 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:02:00.210+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:02:01.106+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T07:02:01.142+05:00 INFO  [main] Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2025-06-12T07:02:01.587+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T07:02:01.602+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:02:01.602+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:02:01.634+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:02:01.634+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1280 ms
+2025-06-12T07:02:02.389+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T07:02:02.610+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b6606d1
+2025-06-12T07:02:02.612+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T07:02:02.665+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T07:02:02.697+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T07:02:02.759+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.043s)
+2025-06-12T07:02:02.810+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T07:02:02.813+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T07:02:02.921+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T07:02:02.970+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T07:02:02.991+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T07:02:03.241+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T07:02:03.305+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T07:02:03.767+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T07:02:03.769+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:02:04.326+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T07:02:05.126+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T07:02:06.072+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T07:02:06.219+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T07:02:06.234+05:00 INFO  [main] Started InventoryServiceApplication in 6.738 seconds (process running for 7.703)
+2025-06-12T07:02:06.581+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:02:06.582+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:02:06.583+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:13:43.085+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:13:43.133+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:13:43.238+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:13:43.267+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T07:13:43.312+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T07:13:55.644+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 51969 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:13:55.652+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:13:56.556+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T07:13:56.597+05:00 INFO  [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2025-06-12T07:13:57.216+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T07:13:57.225+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:13:57.225+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:13:57.262+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:13:57.263+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1418 ms
+2025-06-12T07:13:58.725+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T07:13:59.180+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52849956
+2025-06-12T07:13:59.181+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T07:13:59.341+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T07:13:59.398+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T07:13:59.541+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.116s)
+2025-06-12T07:13:59.596+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T07:13:59.602+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T07:13:59.690+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T07:13:59.738+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T07:13:59.759+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T07:14:00.200+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T07:14:00.313+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T07:14:01.017+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T07:14:01.020+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:14:01.972+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T07:14:02.588+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T07:14:03.820+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T07:14:04.017+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T07:14:04.036+05:00 INFO  [main] Started InventoryServiceApplication in 8.958 seconds (process running for 10.22)
+2025-06-12T07:14:04.404+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:14:04.404+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:14:04.405+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:17:50.300+05:00 INFO  [http-nio-8082-exec-2] Quantity successfully subtracted for SKU oneplus_12. Remaining stock: 262
+2025-06-12T07:19:43.728+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:19:43.733+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:19:43.745+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:19:43.761+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T07:19:43.804+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T07:19:48.786+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 52349 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:19:48.789+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:19:49.884+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T07:19:49.909+05:00 INFO  [main] Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2025-06-12T07:19:50.372+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T07:19:50.380+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:19:50.380+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:19:50.441+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:19:50.442+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1444 ms
+2025-06-12T07:19:50.763+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T07:19:50.904+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dbcf7c3
+2025-06-12T07:19:50.905+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T07:19:50.935+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T07:19:50.953+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T07:19:50.980+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.020s)
+2025-06-12T07:19:50.996+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T07:19:50.998+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T07:19:51.050+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T07:19:51.076+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T07:19:51.091+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T07:19:51.210+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T07:19:51.267+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T07:19:51.623+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T07:19:51.625+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:19:51.844+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T07:19:52.145+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T07:19:52.643+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T07:19:52.717+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T07:19:52.729+05:00 INFO  [main] Started InventoryServiceApplication in 4.429 seconds (process running for 4.851)
+2025-06-12T07:19:53.085+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:19:53.085+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:19:53.088+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 3 ms
+2025-06-12T07:20:10.419+05:00 INFO  [http-nio-8082-exec-10] Quantity successfully subtracted for SKU iphone_15. Remaining stock: 94
+2025-06-12T07:50:42.248+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-06-12T07:50:42.250+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 1 spans due to InternalServerError(500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error"")
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:228)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T07:50:47.082+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s886ms).
+2025-06-12T08:06:42.822+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s727ms).
+2025-06-12T08:23:02.603+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m49s745ms).
+2025-06-12T08:33:38.841+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m36s238ms).
+2025-06-12T08:36:06.209+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:36:06.215+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:36:06.288+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:36:06.294+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T08:36:06.316+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T08:36:11.604+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 53768 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:36:11.620+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:36:12.386+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T08:36:12.415+05:00 INFO  [main] Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2025-06-12T08:36:13.007+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T08:36:13.014+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:36:13.014+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:36:13.110+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:36:13.111+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1335 ms
+2025-06-12T08:36:13.621+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T08:36:13.982+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77d58f3a
+2025-06-12T08:36:13.983+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T08:36:14.026+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T08:36:14.045+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T08:36:14.089+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.036s)
+2025-06-12T08:36:14.117+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T08:36:14.120+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T08:36:14.203+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T08:36:14.253+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T08:36:14.280+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T08:36:14.496+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T08:36:14.555+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T08:36:14.980+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T08:36:14.982+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:36:15.223+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T08:36:15.552+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T08:36:16.079+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T08:36:16.137+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T08:36:16.150+05:00 INFO  [main] Started InventoryServiceApplication in 4.975 seconds (process running for 5.419)
+2025-06-12T08:36:16.580+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:36:16.580+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:36:16.581+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T08:50:06.077+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:50:06.098+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:50:06.147+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:50:06.162+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T08:50:06.202+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T08:50:08.916+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 54619 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:50:08.924+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:50:09.789+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T08:50:09.818+05:00 INFO  [main] Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2025-06-12T08:50:10.417+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T08:50:10.426+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:50:10.426+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:50:10.454+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:50:10.455+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1400 ms
+2025-06-12T08:50:10.857+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T08:50:11.099+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1642968c
+2025-06-12T08:50:11.100+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T08:50:11.165+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T08:50:11.185+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T08:50:11.225+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.032s)
+2025-06-12T08:50:11.248+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T08:50:11.250+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T08:50:11.307+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T08:50:11.355+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T08:50:11.372+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T08:50:11.512+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T08:50:11.587+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T08:50:12.074+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T08:50:12.076+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:50:12.303+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T08:50:12.680+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T08:50:13.238+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T08:50:13.302+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T08:50:13.314+05:00 INFO  [main] Started InventoryServiceApplication in 4.783 seconds (process running for 5.229)
+2025-06-12T08:50:13.585+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:50:13.585+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:50:13.586+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T10:31:04.120+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T10:31:04.147+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T10:31:04.171+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T10:31:04.185+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T10:31:04.204+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T10:31:08.205+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 60095 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T10:31:08.208+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T10:31:09.164+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T10:31:09.198+05:00 INFO  [main] Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-06-12T10:31:10.009+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T10:31:10.018+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T10:31:10.020+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T10:31:10.067+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T10:31:10.068+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1707 ms
+2025-06-12T10:31:10.561+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T10:31:10.781+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55202ba6
+2025-06-12T10:31:10.782+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T10:31:10.827+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T10:31:10.892+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T10:31:10.951+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.032s)
+2025-06-12T10:31:10.971+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T10:31:10.974+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T10:31:11.051+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T10:31:11.108+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T10:31:11.136+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T10:31:11.463+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T10:31:11.568+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T10:31:12.889+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T10:31:12.905+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T10:31:13.571+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T10:31:14.128+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T10:31:14.810+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T10:31:14.884+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T10:31:14.899+05:00 INFO  [main] Started InventoryServiceApplication in 7.087 seconds (process running for 7.472)
+2025-06-12T10:31:15.274+05:00 INFO  [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T10:31:15.275+05:00 INFO  [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T10:31:15.276+05:00 INFO  [http-nio-8082-exec-1] Completed initialization in 1 ms
+2025-06-12T11:54:16.147+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T11:54:16.171+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T11:54:16.216+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T11:54:16.227+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T15:12:11.856+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 68021 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:12:11.862+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:12:12.737+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T15:12:12.766+05:00 INFO  [main] Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2025-06-12T15:12:13.279+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T15:12:13.288+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:12:13.289+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:12:13.330+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:12:13.330+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1303 ms
+2025-06-12T15:12:13.860+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T15:12:33.847+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c45191e
+2025-06-12T15:12:33.853+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T15:12:34.077+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T15:12:34.423+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T15:12:34.562+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.124s)
+2025-06-12T15:12:34.625+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T15:12:34.630+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T15:12:34.888+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T15:12:34.999+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T15:12:35.088+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T15:12:35.479+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T15:12:35.591+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T15:12:36.342+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T15:12:36.345+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:12:37.310+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T15:12:38.414+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T15:12:39.329+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T15:12:39.398+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T15:12:39.416+05:00 INFO  [main] Started InventoryServiceApplication in 27.993 seconds (process running for 28.475)
+2025-06-12T15:12:39.766+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:12:39.767+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:12:39.769+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T15:20:56.219+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:20:56.262+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:20:56.371+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:20:56.432+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T15:20:56.495+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T15:20:59.169+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 68498 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:20:59.182+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:21:00.140+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T15:21:00.188+05:00 INFO  [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2025-06-12T15:21:00.741+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T15:21:00.748+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:21:00.749+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:21:00.779+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:21:00.779+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1429 ms
+2025-06-12T15:21:01.298+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T15:21:01.551+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5008559a
+2025-06-12T15:21:01.554+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T15:21:01.594+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T15:21:01.632+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T15:21:01.671+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.026s)
+2025-06-12T15:21:01.693+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T15:21:01.697+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T15:21:01.764+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T15:21:01.803+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T15:21:01.825+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T15:21:02.090+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T15:21:02.157+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T15:21:02.826+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T15:21:02.829+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:21:03.131+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T15:21:03.783+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T15:21:04.726+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T15:21:04.794+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T15:21:04.805+05:00 INFO  [main] Started InventoryServiceApplication in 6.011 seconds (process running for 6.496)
+2025-06-12T15:21:05.109+05:00 INFO  [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:21:05.109+05:00 INFO  [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:21:05.110+05:00 INFO  [http-nio-8082-exec-1] Completed initialization in 1 ms
+2025-06-12T15:52:47.166+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:52:47.174+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:52:47.201+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:52:47.236+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T15:52:47.272+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T15:52:57.921+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 70457 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:52:57.939+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:52:58.820+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T15:52:58.854+05:00 INFO  [main] Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-06-12T15:52:59.555+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T15:52:59.563+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:52:59.564+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:52:59.617+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:52:59.617+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1514 ms
+2025-06-12T15:53:00.042+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T15:53:00.283+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ddc8fc
+2025-06-12T15:53:00.285+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T15:53:00.333+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T15:53:00.353+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T15:53:00.397+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.029s)
+2025-06-12T15:53:00.410+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T15:53:00.413+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T15:53:00.491+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T15:53:00.543+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T15:53:00.571+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T15:53:00.911+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T15:53:00.993+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T15:53:01.431+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T15:53:01.432+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:53:01.669+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T15:53:02.119+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T15:53:02.704+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T15:53:02.772+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T15:53:02.784+05:00 INFO  [main] Started InventoryServiceApplication in 5.664 seconds (process running for 7.043)
+2025-06-12T15:53:03.102+05:00 INFO  [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:53:03.102+05:00 INFO  [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:53:03.103+05:00 INFO  [http-nio-8082-exec-1] Completed initialization in 1 ms
+2025-06-12T16:22:11.671+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m41s183ms).
+2025-06-12T16:59:06.443+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T16:59:06.459+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T16:59:06.514+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T16:59:06.522+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T16:59:06.548+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T17:17:19.863+05:00 INFO  [main] Starting InventoryServiceApplicationTests using Java 21.0.7 with PID 75286 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service)
+2025-06-12T17:17:19.866+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T17:17:20.454+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T17:17:20.484+05:00 INFO  [main] Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2025-06-12T17:17:20.944+05:00 INFO  [main] Tomcat initialized with port 0 (http)
+2025-06-12T17:17:20.952+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T17:17:20.952+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T17:17:20.983+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T17:17:20.983+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1031 ms
+2025-06-12T17:17:21.348+05:00 INFO  [main] Database: jdbc:mysql://localhost:62508/test (MySQL 8.3)
+2025-06-12T17:17:21.689+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T17:17:21.707+05:00 INFO  [main] Schema history table `test`.`flyway_schema_history` does not exist yet
+2025-06-12T17:17:21.710+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.014s)
+2025-06-12T17:17:21.734+05:00 INFO  [main] Creating Schema History table `test`.`flyway_schema_history` ...
+2025-06-12T17:17:21.795+05:00 INFO  [main] Current version of schema `test`: << Empty Schema >>
+2025-06-12T17:17:21.801+05:00 INFO  [main] Migrating schema `test` to version "1 - init"
+2025-06-12T17:17:21.813+05:00 WARN  [main] DB: Integer display width is deprecated and will be removed in a future release. (SQL State: HY000 - Error Code: 1681)
+2025-06-12T17:17:21.814+05:00 WARN  [main] DB: Integer display width is deprecated and will be removed in a future release. (SQL State: HY000 - Error Code: 1681)
+2025-06-12T17:17:21.838+05:00 INFO  [main] Migrating schema `test` to version "2 - add inventory"
+2025-06-12T17:17:21.859+05:00 INFO  [main] Successfully applied 2 migrations to schema `test`, now at version v2 (execution time 00:00.019s)
+2025-06-12T17:17:21.908+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T17:17:21.944+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T17:17:21.963+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T17:17:22.082+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T17:17:22.096+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T17:17:22.117+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30be77cd
+2025-06-12T17:17:22.118+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T17:17:22.155+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T17:17:22.711+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T17:17:22.713+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:17:22.926+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T17:17:23.241+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T17:17:23.707+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T17:17:23.758+05:00 INFO  [main] Tomcat started on port 62718 (http) with context path '/'
+2025-06-12T17:17:23.769+05:00 INFO  [main] Started InventoryServiceApplicationTests in 4.209 seconds (process running for 17.853)
+2025-06-12T17:17:24.468+05:00 INFO  [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T17:17:24.468+05:00 INFO  [http-nio-auto-1-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T17:17:24.469+05:00 INFO  [http-nio-auto-1-exec-1] Completed initialization in 1 ms
+2025-06-12T17:17:24.563+05:00 INFO  [http-nio-auto-1-exec-1] Quantity successfully subtracted for SKU iphone_15. Remaining stock: 99
+2025-06-12T17:17:24.657+05:00 WARN  [http-nio-auto-1-exec-2] Insufficient stock for SKU iphone_15. Available: 99, Requested: 1000
+2025-06-12T17:17:24.675+05:00 INFO  [main] Could not detect default configuration classes for test class [com.techie.microservices.inventory.TestcontainersConfiguration]: TestcontainersConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-12T17:17:24.677+05:00 INFO  [main] Found @SpringBootConfiguration com.techie.microservices.inventory.InventoryServiceApplication for test class com.techie.microservices.inventory.TestcontainersConfiguration
+2025-06-12T17:17:24.693+05:00 INFO  [main] Starting TestcontainersConfiguration using Java 21.0.7 with PID 75286 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service)
+2025-06-12T17:17:24.693+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T17:17:24.844+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T17:17:24.848+05:00 INFO  [main] Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-06-12T17:17:24.902+05:00 INFO  [main] HikariPool-2 - Starting...
+2025-06-12T17:17:24.922+05:00 INFO  [main] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d1d9765
+2025-06-12T17:17:24.923+05:00 INFO  [main] HikariPool-2 - Start completed.
+2025-06-12T17:17:24.939+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T17:17:24.949+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T17:17:24.959+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.008s)
+2025-06-12T17:17:24.968+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T17:17:24.969+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T17:17:24.983+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T17:17:24.984+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T17:17:24.989+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T17:17:24.992+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T17:17:25.008+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T17:17:25.009+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:17:25.156+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T17:17:25.343+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T17:17:25.358+05:00 INFO  [main] Started TestcontainersConfiguration in 0.675 seconds (process running for 19.442)
+2025-06-12T17:17:25.376+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T17:17:25.378+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T17:17:25.382+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:17:25.384+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T17:17:25.394+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T17:17:25.400+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:17:25.400+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2025-06-12T17:17:25.405+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2025-06-12T17:23:22.169+05:00 INFO  [main] Starting InventoryServiceApplicationTests using Java 21.0.7 with PID 75718 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service)
+2025-06-12T17:23:22.172+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T17:23:23.035+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T17:23:23.102+05:00 INFO  [main] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2025-06-12T17:23:24.368+05:00 INFO  [main] Tomcat initialized with port 0 (http)
+2025-06-12T17:23:24.397+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T17:23:24.398+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T17:23:24.446+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T17:23:24.447+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2197 ms
+2025-06-12T17:23:24.934+05:00 INFO  [main] Database: jdbc:mysql://localhost:65023/test (MySQL 8.3)
+2025-06-12T17:23:25.270+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T17:23:25.287+05:00 INFO  [main] Schema history table `test`.`flyway_schema_history` does not exist yet
+2025-06-12T17:23:25.290+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.014s)
+2025-06-12T17:23:25.315+05:00 INFO  [main] Creating Schema History table `test`.`flyway_schema_history` ...
+2025-06-12T17:23:25.474+05:00 INFO  [main] Current version of schema `test`: << Empty Schema >>
+2025-06-12T17:23:25.483+05:00 INFO  [main] Migrating schema `test` to version "1 - init"
+2025-06-12T17:23:25.508+05:00 WARN  [main] DB: Integer display width is deprecated and will be removed in a future release. (SQL State: HY000 - Error Code: 1681)
+2025-06-12T17:23:25.509+05:00 WARN  [main] DB: Integer display width is deprecated and will be removed in a future release. (SQL State: HY000 - Error Code: 1681)
+2025-06-12T17:23:25.534+05:00 INFO  [main] Migrating schema `test` to version "2 - add inventory"
+2025-06-12T17:23:25.561+05:00 INFO  [main] Successfully applied 2 migrations to schema `test`, now at version v2 (execution time 00:00.036s)
+2025-06-12T17:23:25.623+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T17:23:25.655+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T17:23:25.671+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T17:23:25.798+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T17:23:25.823+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T17:23:25.858+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b9750f0
+2025-06-12T17:23:25.859+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T17:23:25.899+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T17:23:26.497+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T17:23:26.499+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:23:26.776+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T17:23:27.107+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T17:23:27.575+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T17:23:27.625+05:00 INFO  [main] Tomcat started on port 65231 (http) with context path '/'
+2025-06-12T17:23:27.636+05:00 INFO  [main] Started InventoryServiceApplicationTests in 5.765 seconds (process running for 17.968)
+2025-06-12T17:23:28.400+05:00 INFO  [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T17:23:28.400+05:00 INFO  [http-nio-auto-1-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T17:23:28.401+05:00 INFO  [http-nio-auto-1-exec-1] Completed initialization in 1 ms
+2025-06-12T17:23:28.495+05:00 INFO  [http-nio-auto-1-exec-1] Quantity successfully subtracted for SKU iphone_15. Remaining stock: 99
+2025-06-12T17:23:28.589+05:00 WARN  [http-nio-auto-1-exec-2] Insufficient stock for SKU iphone_15. Available: 99, Requested: 1000
+2025-06-12T17:23:28.606+05:00 INFO  [main] Could not detect default configuration classes for test class [com.techie.microservices.inventory.TestcontainersConfiguration]: TestcontainersConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-12T17:23:28.608+05:00 INFO  [main] Found @SpringBootConfiguration com.techie.microservices.inventory.InventoryServiceApplication for test class com.techie.microservices.inventory.TestcontainersConfiguration
+2025-06-12T17:23:28.627+05:00 INFO  [main] Starting TestcontainersConfiguration using Java 21.0.7 with PID 75718 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service)
+2025-06-12T17:23:28.628+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T17:23:28.797+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T17:23:28.802+05:00 INFO  [main] Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2025-06-12T17:23:28.856+05:00 INFO  [main] HikariPool-2 - Starting...
+2025-06-12T17:23:28.877+05:00 INFO  [main] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@172d9bb2
+2025-06-12T17:23:28.877+05:00 INFO  [main] HikariPool-2 - Start completed.
+2025-06-12T17:23:28.883+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T17:23:28.893+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T17:23:28.903+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.008s)
+2025-06-12T17:23:28.912+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T17:23:28.913+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T17:23:28.925+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T17:23:28.926+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T17:23:28.930+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T17:23:28.932+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T17:23:28.947+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T17:23:28.948+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:23:29.108+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T17:23:29.355+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T17:23:29.375+05:00 INFO  [main] Started TestcontainersConfiguration in 0.762 seconds (process running for 19.706)
+2025-06-12T17:23:29.398+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T17:23:29.400+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T17:23:29.404+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:23:29.405+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T17:23:29.440+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T17:23:29.448+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T17:23:29.449+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2025-06-12T17:23:29.454+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2025-06-12T18:16:53.063+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 78082 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:16:53.069+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:16:54.345+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T18:16:54.379+05:00 INFO  [main] Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-06-12T18:16:54.982+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T18:16:54.988+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:16:54.989+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:16:55.026+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:16:55.026+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1821 ms
+2025-06-12T18:16:55.691+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T18:16:55.853+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23e0c200
+2025-06-12T18:16:55.855+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T18:16:55.920+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T18:16:55.970+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T18:16:56.020+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.040s)
+2025-06-12T18:16:56.046+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T18:16:56.050+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T18:16:56.125+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T18:16:56.172+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T18:16:56.204+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T18:16:56.413+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T18:16:56.476+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T18:16:56.887+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T18:16:56.889+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T18:16:57.144+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T18:16:57.459+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T18:16:57.960+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T18:16:58.014+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T18:16:58.024+05:00 INFO  [main] Started InventoryServiceApplication in 5.52 seconds (process running for 6.11)
+2025-06-12T18:16:58.256+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:16:58.256+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:16:58.257+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T18:49:11.942+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T18:49:11.951+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T18:49:11.975+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T18:49:11.988+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T18:49:12.025+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T18:49:20.199+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 79699 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:49:20.206+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:49:20.870+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T18:49:20.894+05:00 INFO  [main] Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2025-06-12T18:49:21.296+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T18:49:21.315+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:49:21.315+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:49:21.350+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:49:21.350+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1027 ms
+2025-06-12T18:49:21.668+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T18:49:21.813+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6baee63b
+2025-06-12T18:49:21.814+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T18:49:21.849+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T18:49:21.866+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T18:49:21.893+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.021s)
+2025-06-12T18:49:21.910+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T18:49:21.912+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T18:49:21.960+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T18:49:21.984+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T18:49:22.000+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T18:49:22.131+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T18:49:22.191+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T18:49:22.536+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T18:49:22.537+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T18:49:22.745+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T18:49:23.066+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T18:49:23.697+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T18:49:23.780+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T18:49:23.792+05:00 INFO  [main] Started InventoryServiceApplication in 4.147 seconds (process running for 4.611)
+2025-06-12T18:49:23.891+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:49:23.891+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:49:23.892+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T19:01:50.186+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:01:50.195+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:01:50.212+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:01:50.218+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:01:50.247+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T19:10:31.131+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 81342 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:10:31.139+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:10:32.554+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T19:10:32.593+05:00 INFO  [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-06-12T19:10:33.112+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T19:10:33.122+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:10:33.123+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:10:33.163+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:10:33.164+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1841 ms
+2025-06-12T19:10:33.958+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T19:10:34.319+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ddc8fc
+2025-06-12T19:10:34.322+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T19:10:34.376+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T19:10:34.398+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T19:10:34.437+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.032s)
+2025-06-12T19:10:34.469+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T19:10:34.473+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T19:10:34.612+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T19:10:34.692+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T19:10:34.733+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T19:10:35.043+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T19:10:35.418+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T19:10:35.940+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T19:10:35.942+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:10:36.268+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T19:10:36.728+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T19:10:37.802+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T19:10:37.885+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T19:10:37.916+05:00 INFO  [main] Started InventoryServiceApplication in 7.212 seconds (process running for 7.774)
+2025-06-12T19:10:38.165+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:10:38.165+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:10:38.169+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 4 ms
+2025-06-12T19:14:25.717+05:00 INFO  [http-nio-8082-exec-5] Quantity successfully subtracted for SKU galaxy_24. Remaining stock: 90
+2025-06-12T19:14:35.955+05:00 INFO  [http-nio-8082-exec-1] Quantity successfully subtracted for SKU galaxy_24. Remaining stock: 80
+2025-06-12T19:18:07.904+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:18:07.918+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:18:08.004+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:18:08.028+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:18:08.065+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T19:18:14.680+05:00 INFO  [main] Starting InventoryServiceApplication using Java 21.0.7 with PID 81981 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:18:14.686+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:18:15.698+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T19:18:15.740+05:00 INFO  [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2025-06-12T19:18:16.414+05:00 INFO  [main] Tomcat initialized with port 8082 (http)
+2025-06-12T19:18:16.420+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:18:16.421+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:18:16.452+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:18:16.452+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1574 ms
+2025-06-12T19:18:16.901+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T19:18:17.067+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35dc849b
+2025-06-12T19:18:17.068+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T19:18:17.109+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T19:18:17.133+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T19:18:17.180+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.036s)
+2025-06-12T19:18:17.200+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T19:18:17.206+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T19:18:17.283+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T19:18:17.311+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T19:18:17.328+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T19:18:17.461+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T19:18:17.530+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T19:18:17.891+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T19:18:17.893+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:18:18.229+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T19:18:18.684+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T19:18:19.259+05:00 INFO  [main] Exposing 17 endpoints beneath base path '/actuator'
+2025-06-12T19:18:19.315+05:00 INFO  [main] Tomcat started on port 8082 (http) with context path '/'
+2025-06-12T19:18:19.326+05:00 INFO  [main] Started InventoryServiceApplication in 5.16 seconds (process running for 5.668)
+2025-06-12T19:18:19.526+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:18:19.527+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:18:19.530+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 3 ms
+2025-06-12T19:18:32.371+05:00 INFO  [http-nio-8082-exec-7] Quantity successfully subtracted for SKU galaxy_24. Remaining stock: 79
+2025-06-12T19:20:09.542+05:00 INFO  [http-nio-8082-exec-8] Quantity successfully subtracted for SKU galaxy_24. Remaining stock: 78
+2025-06-12T19:21:32.326+05:00 INFO  [http-nio-8082-exec-1] Quantity successfully subtracted for SKU galaxy_24. Remaining stock: 77
+2025-06-12T19:23:06.030+05:00 INFO  [main] Starting InventoryServiceApplicationTests using Java 21.0.7 with PID 82267 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service)
+2025-06-12T19:23:06.033+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:23:06.637+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T19:23:06.664+05:00 INFO  [main] Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2025-06-12T19:23:07.059+05:00 INFO  [main] Tomcat initialized with port 0 (http)
+2025-06-12T19:23:07.070+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:23:07.071+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:23:07.104+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:23:07.104+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 984 ms
+2025-06-12T19:23:07.438+05:00 INFO  [main] Database: jdbc:mysql://localhost:52224/test (MySQL 8.3)
+2025-06-12T19:23:07.776+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T19:23:07.800+05:00 INFO  [main] Schema history table `test`.`flyway_schema_history` does not exist yet
+2025-06-12T19:23:07.803+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.018s)
+2025-06-12T19:23:07.823+05:00 INFO  [main] Creating Schema History table `test`.`flyway_schema_history` ...
+2025-06-12T19:23:07.875+05:00 INFO  [main] Current version of schema `test`: << Empty Schema >>
+2025-06-12T19:23:07.881+05:00 INFO  [main] Migrating schema `test` to version "1 - init"
+2025-06-12T19:23:07.895+05:00 WARN  [main] DB: Integer display width is deprecated and will be removed in a future release. (SQL State: HY000 - Error Code: 1681)
+2025-06-12T19:23:07.895+05:00 WARN  [main] DB: Integer display width is deprecated and will be removed in a future release. (SQL State: HY000 - Error Code: 1681)
+2025-06-12T19:23:07.920+05:00 INFO  [main] Migrating schema `test` to version "2 - add inventory"
+2025-06-12T19:23:07.942+05:00 INFO  [main] Successfully applied 2 migrations to schema `test`, now at version v2 (execution time 00:00.021s)
+2025-06-12T19:23:07.991+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T19:23:08.018+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T19:23:08.033+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T19:23:08.169+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T19:23:08.184+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T19:23:08.211+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@771deee6
+2025-06-12T19:23:08.212+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T19:23:08.249+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T19:23:08.798+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T19:23:08.799+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:23:09.001+05:00 INFO  [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12T19:23:09.332+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T19:23:09.792+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T19:23:09.841+05:00 INFO  [main] Tomcat started on port 52362 (http) with context path '/'
+2025-06-12T19:23:09.853+05:00 INFO  [main] Started InventoryServiceApplicationTests in 4.112 seconds (process running for 14.89)
+2025-06-12T19:23:10.603+05:00 INFO  [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:23:10.603+05:00 INFO  [http-nio-auto-1-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:23:10.604+05:00 INFO  [http-nio-auto-1-exec-1] Completed initialization in 1 ms
+2025-06-12T19:23:10.698+05:00 INFO  [http-nio-auto-1-exec-1] Quantity successfully subtracted for SKU iphone_15. Remaining stock: 99
+2025-06-12T19:23:10.797+05:00 WARN  [http-nio-auto-1-exec-2] Insufficient stock for SKU iphone_15. Available: 99, Requested: 1000
+2025-06-12T19:23:10.813+05:00 INFO  [main] Could not detect default configuration classes for test class [com.techie.microservices.inventory.TestcontainersConfiguration]: TestcontainersConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-12T19:23:10.816+05:00 INFO  [main] Found @SpringBootConfiguration com.techie.microservices.inventory.InventoryServiceApplication for test class com.techie.microservices.inventory.TestcontainersConfiguration
+2025-06-12T19:23:10.832+05:00 INFO  [main] Starting TestcontainersConfiguration using Java 21.0.7 with PID 82267 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/inventory-service)
+2025-06-12T19:23:10.832+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:23:10.981+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T19:23:10.985+05:00 INFO  [main] Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2025-06-12T19:23:11.037+05:00 INFO  [main] HikariPool-2 - Starting...
+2025-06-12T19:23:11.056+05:00 INFO  [main] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3505bbbc
+2025-06-12T19:23:11.056+05:00 INFO  [main] HikariPool-2 - Start completed.
+2025-06-12T19:23:11.083+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/inventory_service (MySQL 8.3)
+2025-06-12T19:23:11.094+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T19:23:11.103+05:00 INFO  [main] Successfully validated 2 migrations (execution time 00:00.007s)
+2025-06-12T19:23:11.112+05:00 INFO  [main] Current version of schema `inventory_service`: 2
+2025-06-12T19:23:11.113+05:00 INFO  [main] Schema `inventory_service` is up to date. No migration necessary.
+2025-06-12T19:23:11.127+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T19:23:11.128+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T19:23:11.133+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T19:23:11.134+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T19:23:11.150+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T19:23:11.150+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:23:11.283+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T19:23:11.473+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T19:23:11.492+05:00 INFO  [main] Started TestcontainersConfiguration in 0.671 seconds (process running for 16.529)
+2025-06-12T19:23:11.518+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:23:11.520+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:23:11.524+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:23:11.526+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:23:11.537+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T19:23:11.543+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:23:11.544+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2025-06-12T19:23:11.549+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.

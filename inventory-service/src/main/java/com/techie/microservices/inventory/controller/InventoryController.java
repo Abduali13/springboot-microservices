@@ -15,6 +15,6 @@ public class InventoryController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public boolean isInStock(@RequestParam String skuCode, @RequestParam Integer quantity) {
-        return this.inventoryService.isInStock(skuCode, quantity);
+        return this.inventoryService.subtractQuantity(skuCode, quantity);
     }
 }

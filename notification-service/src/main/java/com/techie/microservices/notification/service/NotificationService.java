@@ -33,6 +33,9 @@ public class NotificationService {
                              Yo 
                                                 \s
                              Your order with order number %s is placed successfully
+                             
+                             Order details are as follows:
+
                                                 \s
                              Best Regards
                              Yo
@@ -41,6 +44,8 @@ public class NotificationService {
 //                    firstName,
 //                    lastName,
                     orderPlacedEvent.getOrderNumber()
+//                    orderPlacedEvent.getEmail()
+
             ));
         };
         try {

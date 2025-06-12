@@ -12,5 +12,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideHttpClient(withInterceptors([authInterceptor])),
     provideAuth(authConfig),
+    provideZoneChangeDetection()
   ]
 };

@@ -1,0 +1,908 @@
+2025-06-12T06:06:08.891+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 46301 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:06:08.906+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:06:09.537+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T06:06:09.565+05:00 INFO  [main] Finished Spring Data repository scanning in 24 ms. Found 1 MongoDB repository interface.
+2025-06-12T06:06:09.919+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T06:06:09.926+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:06:09.927+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:06:09.963+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:06:09.964+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 956 ms
+2025-06-12T06:06:10.381+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@1aca6dc3], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3731e8b6, com.mongodb.Jep395RecordCodecProvider@565efd7d, com.mongodb.KotlinCodecProvider@42a97053]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@bc4a9b0], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T06:06:10.508+05:00 INFO  [cluster-ClusterId{value='684a2802e84ab02b2176f3d7', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=128258583, minRoundTripTimeNanos=0}
+2025-06-12T06:06:11.012+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T06:06:11.613+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T06:06:11.626+05:00 INFO  [main] Started ProductServiceApplication in 3.067 seconds (process running for 3.37)
+2025-06-12T06:06:12.079+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:06:12.079+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:06:12.081+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T06:06:58.927+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T06:06:58.945+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T06:07:07.433+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 46390 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:07:07.446+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:07:09.550+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T06:07:09.595+05:00 INFO  [main] Finished Spring Data repository scanning in 32 ms. Found 1 MongoDB repository interface.
+2025-06-12T06:07:10.288+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T06:07:10.298+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:07:10.298+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:07:10.352+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:07:10.353+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2547 ms
+2025-06-12T06:07:10.996+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@3d7caf9c], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4e26040f, com.mongodb.Jep395RecordCodecProvider@1782896, com.mongodb.KotlinCodecProvider@8bde368]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5065bdac], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T06:07:11.049+05:00 INFO  [cluster-ClusterId{value='684a283eedca38271f8f2f05', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=39474208, minRoundTripTimeNanos=0}
+2025-06-12T06:07:12.272+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T06:07:12.825+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T06:07:12.841+05:00 INFO  [main] Started ProductServiceApplication in 6.214 seconds (process running for 7.383)
+2025-06-12T06:07:13.330+05:00 INFO  [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:07:13.330+05:00 INFO  [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:07:13.333+05:00 INFO  [http-nio-8080-exec-1] Completed initialization in 3 ms
+2025-06-12T06:40:11.437+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T06:40:11.442+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T06:40:18.336+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 48560 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:40:18.343+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:40:20.577+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T06:40:20.779+05:00 INFO  [main] Finished Spring Data repository scanning in 188 ms. Found 1 MongoDB repository interface.
+2025-06-12T06:40:21.705+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T06:40:21.713+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:40:21.713+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:40:21.746+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:40:21.746+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 3046 ms
+2025-06-12T06:40:22.881+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@284b487f], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@65021bb4, com.mongodb.Jep395RecordCodecProvider@630c3af3, com.mongodb.KotlinCodecProvider@2e40ea48]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5cba474f], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T06:40:22.904+05:00 INFO  [cluster-ClusterId{value='684a300611bc1c0dc52718bd', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36619875, minRoundTripTimeNanos=0}
+2025-06-12T06:40:26.807+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T06:40:28.186+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T06:40:28.204+05:00 INFO  [main] Started ProductServiceApplication in 11.261 seconds (process running for 12.73)
+2025-06-12T06:40:28.783+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:40:28.783+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:40:28.784+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:01:50.500+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:01:50.508+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:01:57.698+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 51020 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:01:57.703+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:01:59.325+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T07:01:59.353+05:00 INFO  [main] Finished Spring Data repository scanning in 23 ms. Found 1 MongoDB repository interface.
+2025-06-12T07:02:00.169+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T07:02:00.176+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:02:00.176+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:02:00.230+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:02:00.230+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2144 ms
+2025-06-12T07:02:00.969+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@4edde05c], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@2911db81, com.mongodb.Jep395RecordCodecProvider@7fce1069, com.mongodb.KotlinCodecProvider@51b41740]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@70cac22a], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T07:02:00.981+05:00 INFO  [cluster-ClusterId{value='684a35189c6f861e9c8e9956', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26861167, minRoundTripTimeNanos=0}
+2025-06-12T07:02:03.218+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T07:02:04.432+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T07:02:04.451+05:00 INFO  [main] Started ProductServiceApplication in 7.589 seconds (process running for 8.242)
+2025-06-12T07:02:04.786+05:00 INFO  [RMI TCP Connection(7)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:02:04.787+05:00 INFO  [RMI TCP Connection(7)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:02:04.788+05:00 INFO  [RMI TCP Connection(7)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:13:43.149+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:13:43.193+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:13:50.612+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 51959 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:13:50.615+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:13:51.705+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T07:13:51.742+05:00 INFO  [main] Finished Spring Data repository scanning in 31 ms. Found 1 MongoDB repository interface.
+2025-06-12T07:13:52.343+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T07:13:52.356+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:13:52.356+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:13:52.410+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:13:52.410+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1629 ms
+2025-06-12T07:13:54.117+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@627d5f1], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@105fe81e, com.mongodb.Jep395RecordCodecProvider@af94b0b, com.mongodb.KotlinCodecProvider@208185c0]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@1831447c], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T07:13:54.156+05:00 INFO  [cluster-ClusterId{value='684a37e193ea3e734ba240ec', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=65870625, minRoundTripTimeNanos=0}
+2025-06-12T07:13:56.286+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T07:13:58.602+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T07:13:58.630+05:00 INFO  [main] Started ProductServiceApplication in 8.506 seconds (process running for 9.191)
+2025-06-12T07:13:59.214+05:00 INFO  [RMI TCP Connection(5)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:13:59.214+05:00 INFO  [RMI TCP Connection(5)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:13:59.217+05:00 INFO  [RMI TCP Connection(5)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T07:19:43.727+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:19:43.732+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:19:45.800+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 52329 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:19:45.806+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:19:46.552+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T07:19:46.581+05:00 INFO  [main] Finished Spring Data repository scanning in 25 ms. Found 1 MongoDB repository interface.
+2025-06-12T07:19:47.267+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T07:19:47.276+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:19:47.276+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:19:47.317+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:19:47.317+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1360 ms
+2025-06-12T07:19:48.074+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@3ff53704], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@34d11c92, com.mongodb.Jep395RecordCodecProvider@31b289da, com.mongodb.KotlinCodecProvider@58486deb]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@4e933cf1], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T07:19:48.132+05:00 INFO  [cluster-ClusterId{value='684a39440478295fef11dbb5', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=74339541, minRoundTripTimeNanos=0}
+2025-06-12T07:19:49.006+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T07:19:49.807+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T07:19:49.818+05:00 INFO  [main] Started ProductServiceApplication in 4.373 seconds (process running for 4.804)
+2025-06-12T07:19:50.254+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:19:50.254+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:19:50.256+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T07:50:43.485+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-06-12T07:50:43.488+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 5 spans due to InternalServerError(500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error"")
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:228)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T08:36:06.211+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:36:06.220+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:36:13.485+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 53771 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:36:13.490+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:36:14.605+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T08:36:14.633+05:00 INFO  [main] Finished Spring Data repository scanning in 23 ms. Found 1 MongoDB repository interface.
+2025-06-12T08:36:15.047+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T08:36:15.053+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:36:15.053+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:36:15.078+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:36:15.079+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1258 ms
+2025-06-12T08:36:15.462+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@47f39279], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@63ed5dae, com.mongodb.Jep395RecordCodecProvider@578198d9, com.mongodb.KotlinCodecProvider@4deca78]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5f65e0c0], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T08:36:15.472+05:00 INFO  [cluster-ClusterId{value='684a4b2f6aea8e5881881b98', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12070708, minRoundTripTimeNanos=0}
+2025-06-12T08:36:16.104+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T08:36:16.694+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T08:36:16.711+05:00 INFO  [main] Started ProductServiceApplication in 3.787 seconds (process running for 4.197)
+2025-06-12T08:36:16.802+05:00 INFO  [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:36:16.802+05:00 INFO  [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:36:16.803+05:00 INFO  [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-06-12T08:50:06.079+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:50:06.102+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:50:11.832+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 54638 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:50:11.842+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:50:12.547+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T08:50:12.571+05:00 INFO  [main] Finished Spring Data repository scanning in 21 ms. Found 1 MongoDB repository interface.
+2025-06-12T08:50:12.986+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T08:50:12.998+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:50:12.999+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:50:13.027+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:50:13.028+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1060 ms
+2025-06-12T08:50:13.419+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@1f3aa970], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5213b887, com.mongodb.Jep395RecordCodecProvider@40c6d1ef, com.mongodb.KotlinCodecProvider@6f4029e9]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@257b6c58], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T08:50:13.428+05:00 INFO  [cluster-ClusterId{value='684a4e757aeace3f0bac15cc', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8330833, minRoundTripTimeNanos=0}
+2025-06-12T08:50:14.041+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T08:50:14.447+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T08:50:14.457+05:00 INFO  [main] Started ProductServiceApplication in 3.183 seconds (process running for 3.616)
+2025-06-12T08:50:14.535+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:50:14.535+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:50:14.536+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T10:31:04.041+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T10:31:04.066+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T10:31:07.321+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 60085 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T10:31:07.324+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T10:31:08.243+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T10:31:08.281+05:00 INFO  [main] Finished Spring Data repository scanning in 33 ms. Found 1 MongoDB repository interface.
+2025-06-12T10:31:08.864+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T10:31:08.878+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T10:31:08.878+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T10:31:08.909+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T10:31:08.909+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1407 ms
+2025-06-12T10:31:09.814+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@574327ed], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4c7f2fdb, com.mongodb.Jep395RecordCodecProvider@1b5cf611, com.mongodb.KotlinCodecProvider@3d01ea33]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@73b3ce31], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T10:31:09.831+05:00 INFO  [cluster-ClusterId{value='684a661d3d993f74a1539756', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14498209, minRoundTripTimeNanos=0}
+2025-06-12T10:31:10.944+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T10:31:12.834+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T10:31:12.861+05:00 INFO  [main] Started ProductServiceApplication in 5.928 seconds (process running for 6.294)
+2025-06-12T10:31:12.994+05:00 INFO  [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T10:31:12.995+05:00 INFO  [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T10:31:12.996+05:00 INFO  [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-06-12T11:54:16.145+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T11:54:16.159+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:12:14.281+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 68037 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:12:14.292+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:12:15.350+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T15:12:15.373+05:00 INFO  [main] Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interface.
+2025-06-12T15:12:15.767+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T15:12:15.773+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:12:15.774+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:12:15.805+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:12:15.806+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1337 ms
+2025-06-12T15:12:16.184+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@729a9c3d], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@574327ed, com.mongodb.Jep395RecordCodecProvider@4c7f2fdb, com.mongodb.KotlinCodecProvider@1b5cf611]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@3d01ea33], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T15:12:16.219+05:00 INFO  [cluster-ClusterId{value='684aa800ba40945152d66017', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36049167, minRoundTripTimeNanos=0}
+2025-06-12T15:12:16.886+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T15:12:17.405+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T15:12:17.417+05:00 INFO  [main] Started ProductServiceApplication in 3.525 seconds (process running for 3.939)
+2025-06-12T15:12:17.726+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:12:17.727+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:12:17.728+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T15:20:56.213+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:20:56.233+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:21:02.213+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 68516 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:21:02.223+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:21:03.205+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T15:21:03.238+05:00 INFO  [main] Finished Spring Data repository scanning in 26 ms. Found 1 MongoDB repository interface.
+2025-06-12T15:21:03.997+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T15:21:04.004+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:21:04.005+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:21:04.051+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:21:04.051+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1625 ms
+2025-06-12T15:21:04.848+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@73d7d676], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@8e3449e, com.mongodb.Jep395RecordCodecProvider@3023f157, com.mongodb.KotlinCodecProvider@1f3aa970]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5213b887], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T15:21:04.897+05:00 INFO  [cluster-ClusterId{value='684aaa10ab9bd7375a518996', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=49217459, minRoundTripTimeNanos=0}
+2025-06-12T15:21:05.809+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T15:21:06.404+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T15:21:06.416+05:00 INFO  [main] Started ProductServiceApplication in 4.959 seconds (process running for 5.397)
+2025-06-12T15:21:06.729+05:00 INFO  [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:21:06.730+05:00 INFO  [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:21:06.731+05:00 INFO  [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-06-12T15:52:47.160+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:52:47.169+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:52:54.156+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 70446 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:52:54.161+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:52:56.083+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T15:52:56.241+05:00 INFO  [main] Finished Spring Data repository scanning in 145 ms. Found 1 MongoDB repository interface.
+2025-06-12T15:52:57.754+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T15:52:57.763+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:52:57.763+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:52:57.813+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:52:57.814+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 3205 ms
+2025-06-12T15:52:58.371+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@73d7d676], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@8e3449e, com.mongodb.Jep395RecordCodecProvider@3023f157, com.mongodb.KotlinCodecProvider@1f3aa970]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5213b887], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T15:52:58.447+05:00 INFO  [cluster-ClusterId{value='684ab18aee3dbc63e528f22f', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=69933167, minRoundTripTimeNanos=0}
+2025-06-12T15:52:59.513+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T15:53:00.133+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T15:53:00.156+05:00 INFO  [main] Started ProductServiceApplication in 6.773 seconds (process running for 7.464)
+2025-06-12T15:53:00.670+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:53:00.670+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:53:00.671+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T16:02:39.226+05:00 INFO  [http-nio-8080-exec-4] Creating product ProductRequest[id=null, name=phone, description=phone, skuCode=galaxy_24, price=3000]
+2025-06-12T16:02:39.315+05:00 INFO  [http-nio-8080-exec-4] Product created successfully
+2025-06-12T16:22:00.202+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-06-12T16:22:00.205+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 5 spans due to InternalServerError(500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error"")
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:228)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T16:59:06.433+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T16:59:06.445+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T17:16:58.882+05:00 INFO  [main] Starting ProductServiceApplicationTests using Java 21.0.7 with PID 75268 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service)
+2025-06-12T17:16:58.885+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T17:16:59.563+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T17:16:59.586+05:00 INFO  [main] Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interface.
+2025-06-12T17:17:01.072+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@1488d1c], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@b21cbbf, com.mongodb.Jep395RecordCodecProvider@578ac0be, com.mongodb.KotlinCodecProvider@4250b0c1]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@7b5e5fa], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T17:17:01.109+05:00 INFO  [cluster-ClusterId{value='684ac53d9965020e0c45862e', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26951417, minRoundTripTimeNanos=0}
+2025-06-12T17:17:01.397+05:00 INFO  [main] Exposing 15 endpoints beneath base path '/actuator'
+2025-06-12T17:17:01.897+05:00 INFO  [main] Started ProductServiceApplicationTests in 3.348 seconds (process running for 3.844)
+2025-06-12T17:17:01.973+05:00 INFO  [main] Creating product ProductRequest[id=1, name=Product 1, description=Test Description, skuCode=sku123, price=100.0]
+2025-06-12T17:17:01.979+05:00 INFO  [main] Product created successfully
+2025-06-12T17:23:03.099+05:00 INFO  [main] Starting ProductServiceApplicationTests using Java 21.0.7 with PID 75697 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service)
+2025-06-12T17:23:03.102+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T17:23:03.735+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T17:23:03.760+05:00 INFO  [main] Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interface.
+2025-06-12T17:23:05.302+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@7baea18b], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5ad13be4, com.mongodb.Jep395RecordCodecProvider@2e93f91d, com.mongodb.KotlinCodecProvider@1a899fcd]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@14a5d7ee], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T17:23:05.327+05:00 INFO  [cluster-ClusterId{value='684ac6a9a44e0850822a6b88', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16996542, minRoundTripTimeNanos=0}
+2025-06-12T17:23:05.566+05:00 INFO  [main] Exposing 15 endpoints beneath base path '/actuator'
+2025-06-12T17:23:06.045+05:00 INFO  [main] Started ProductServiceApplicationTests in 3.26 seconds (process running for 3.764)
+2025-06-12T17:23:06.106+05:00 INFO  [main] Creating product ProductRequest[id=1, name=Product 1, description=Test Description, skuCode=sku123, price=100.0]
+2025-06-12T17:23:06.110+05:00 INFO  [main] Product created successfully
+2025-06-12T18:16:49.296+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 78067 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:16:49.299+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:16:50.050+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T18:16:50.076+05:00 INFO  [main] Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interface.
+2025-06-12T18:16:50.601+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T18:16:50.609+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:16:50.609+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:16:50.638+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:16:50.638+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1201 ms
+2025-06-12T18:16:51.162+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@6d45dd4], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@1614499b, com.mongodb.Jep395RecordCodecProvider@1468fc85, com.mongodb.KotlinCodecProvider@47f39279]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@63ed5dae], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T18:16:51.282+05:00 INFO  [cluster-ClusterId{value='684ad3437608d047cbb7dd04', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=120049750, minRoundTripTimeNanos=0}
+2025-06-12T18:16:52.154+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T18:16:52.943+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T18:16:52.957+05:00 INFO  [main] Started ProductServiceApplication in 4.046 seconds (process running for 4.533)
+2025-06-12T18:16:53.580+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:16:53.580+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:16:53.581+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T18:17:31.617+05:00 INFO  [http-nio-8080-exec-1] Creating product ProductRequest[id=null, name=adsf, description=fdsa, skuCode=iphone_15, price=3000]
+2025-06-12T18:17:31.689+05:00 ERROR [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Error with Product with SKU Code iphone_15] with root cause
+java.lang.RuntimeException: Error with Product with SKU Code iphone_15
+	at com.techie.microservices.product.service.ProductService.productRequestValidation(ProductService.java:42)
+	at com.techie.microservices.product.service.ProductService.createProduct(ProductService.java:24)
+	at com.techie.microservices.product.controller.ProductController.createProduct(ProductController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.proceed(AuthorizationManagerBeforeMethodInterceptor.java:268)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.attemptAuthorization(AuthorizationManagerBeforeMethodInterceptor.java:263)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:196)
+	at org.springframework.security.config.annotation.method.configuration.DeferringMethodInterceptor.invoke(DeferringMethodInterceptor.java:44)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.techie.microservices.product.controller.ProductController$$SpringCGLIB$$0.createProduct(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T18:49:10.400+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T18:49:10.413+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T18:49:15.029+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 79682 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:49:15.041+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:49:15.980+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T18:49:16.013+05:00 INFO  [main] Finished Spring Data repository scanning in 27 ms. Found 1 MongoDB repository interface.
+2025-06-12T18:49:16.519+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T18:49:16.533+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:49:16.533+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:49:16.561+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:49:16.561+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1344 ms
+2025-06-12T18:49:17.400+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@5b0e5d5f], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@58b5d5fc, com.mongodb.Jep395RecordCodecProvider@42536da6, com.mongodb.KotlinCodecProvider@7591cbd1]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5cdc8499], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T18:49:17.421+05:00 INFO  [cluster-ClusterId{value='684adadde4e07911ed356c36', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=50873125, minRoundTripTimeNanos=0}
+2025-06-12T18:49:17.832+05:00 WARN  [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'badRequestCustomException' defined in file [/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes/com/techie/microservices/product/exception/BadRequestCustomException.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-12T18:49:18.848+05:00 WARN  [main] Timed out waiting for in-flight spans to send
+2025-06-12T18:49:18.852+05:00 INFO  [main] Stopping service [Tomcat]
+2025-06-12T18:49:18.868+05:00 INFO  [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12T18:49:18.883+05:00 ERROR [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.techie.microservices.product.exception.BadRequestCustomException required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2025-06-12T18:49:28.140+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 79710 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:49:28.146+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:49:28.726+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T18:49:28.753+05:00 INFO  [main] Finished Spring Data repository scanning in 23 ms. Found 1 MongoDB repository interface.
+2025-06-12T18:49:29.114+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T18:49:29.126+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:49:29.126+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:49:29.149+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:49:29.149+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 909 ms
+2025-06-12T18:49:29.501+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@31b289da], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@58486deb, com.mongodb.Jep395RecordCodecProvider@4e933cf1, com.mongodb.KotlinCodecProvider@729a9c3d]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@574327ed], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T18:49:29.508+05:00 INFO  [cluster-ClusterId{value='684adae90012ef733d8a39c4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7187041, minRoundTripTimeNanos=0}
+2025-06-12T18:49:29.702+05:00 WARN  [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'badRequestCustomException' defined in file [/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes/com/techie/microservices/product/exception/BadRequestCustomException.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-06-12T18:49:30.715+05:00 WARN  [main] Timed out waiting for in-flight spans to send
+2025-06-12T18:49:30.720+05:00 INFO  [main] Stopping service [Tomcat]
+2025-06-12T18:49:30.742+05:00 INFO  [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12T18:49:30.755+05:00 ERROR [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.techie.microservices.product.exception.BadRequestCustomException required a bean of type 'java.lang.String' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2025-06-12T18:50:15.835+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 79753 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:50:15.840+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:50:16.429+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T18:50:16.451+05:00 INFO  [main] Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interface.
+2025-06-12T18:50:16.805+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T18:50:16.818+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:50:16.818+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:50:16.842+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:50:16.842+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 906 ms
+2025-06-12T18:50:17.191+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@574327ed], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4c7f2fdb, com.mongodb.Jep395RecordCodecProvider@1b5cf611, com.mongodb.KotlinCodecProvider@3d01ea33]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@73b3ce31], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T18:50:17.198+05:00 INFO  [cluster-ClusterId{value='684adb19fa9e1f087dbaf219', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7660292, minRoundTripTimeNanos=0}
+2025-06-12T18:50:17.782+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T18:50:18.186+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T18:50:18.198+05:00 INFO  [main] Started ProductServiceApplication in 2.671 seconds (process running for 2.938)
+2025-06-12T18:50:18.276+05:00 INFO  [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:50:18.276+05:00 INFO  [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:50:18.277+05:00 INFO  [http-nio-8080-exec-1] Completed initialization in 1 ms
+2025-06-12T18:50:50.658+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T18:50:50.661+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T18:50:53.639+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 79835 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:50:53.647+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:50:54.213+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T18:50:54.240+05:00 INFO  [main] Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interface.
+2025-06-12T18:50:54.599+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T18:50:54.605+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:50:54.605+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:50:54.635+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:50:54.635+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 900 ms
+2025-06-12T18:50:55.024+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@5847010], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@1ad9d5be, com.mongodb.Jep395RecordCodecProvider@46fdfaeb, com.mongodb.KotlinCodecProvider@102aa5fc]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@36885319], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T18:50:55.030+05:00 INFO  [cluster-ClusterId{value='684adb3e1e15740b63a51393', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6985708, minRoundTripTimeNanos=0}
+2025-06-12T18:50:55.612+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T18:50:56.007+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T18:50:56.017+05:00 INFO  [main] Started ProductServiceApplication in 2.689 seconds (process running for 2.958)
+2025-06-12T18:50:56.234+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:50:56.234+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:50:56.235+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T18:51:33.236+05:00 INFO  [http-nio-8080-exec-1] Creating product ProductRequest[id=null, name=asdf, description=fdsa, skuCode=galaxy_24, price=3000]
+2025-06-12T18:51:33.267+05:00 ERROR [http-nio-8080-exec-1] Product creation failed
+java.lang.RuntimeException: Error with Product with SKU Code galaxy_24
+	at com.techie.microservices.product.service.ProductService.productRequestValidation(ProductService.java:46)
+	at com.techie.microservices.product.service.ProductService.createProduct(ProductService.java:25)
+	at com.techie.microservices.product.controller.ProductController.createProduct(ProductController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.proceed(AuthorizationManagerBeforeMethodInterceptor.java:268)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.attemptAuthorization(AuthorizationManagerBeforeMethodInterceptor.java:263)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:196)
+	at org.springframework.security.config.annotation.method.configuration.DeferringMethodInterceptor.invoke(DeferringMethodInterceptor.java:44)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.techie.microservices.product.controller.ProductController$$SpringCGLIB$$0.createProduct(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T18:51:33.272+05:00 ERROR [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Product creation failed] with root cause
+java.lang.RuntimeException: Error with Product with SKU Code galaxy_24
+	at com.techie.microservices.product.service.ProductService.productRequestValidation(ProductService.java:46)
+	at com.techie.microservices.product.service.ProductService.createProduct(ProductService.java:25)
+	at com.techie.microservices.product.controller.ProductController.createProduct(ProductController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.proceed(AuthorizationManagerBeforeMethodInterceptor.java:268)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.attemptAuthorization(AuthorizationManagerBeforeMethodInterceptor.java:263)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:196)
+	at org.springframework.security.config.annotation.method.configuration.DeferringMethodInterceptor.invoke(DeferringMethodInterceptor.java:44)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.techie.microservices.product.controller.ProductController$$SpringCGLIB$$0.createProduct(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T18:57:44.930+05:00 INFO  [http-nio-8080-exec-7] Creating product ProductRequest[id=null, name=pixel 8, description=yes, skuCode=pixel_8, price=3400]
+2025-06-12T18:57:45.007+05:00 INFO  [http-nio-8080-exec-7] Product created successfully
+2025-06-12T19:01:50.182+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:01:50.187+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:10:36.763+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 81369 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:10:36.768+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:10:37.991+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T19:10:38.053+05:00 INFO  [main] Finished Spring Data repository scanning in 48 ms. Found 1 MongoDB repository interface.
+2025-06-12T19:10:38.772+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T19:10:38.782+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:10:38.782+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:10:38.809+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:10:38.810+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1857 ms
+2025-06-12T19:10:39.309+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@38445703], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@44ae6b66, com.mongodb.Jep395RecordCodecProvider@5b0e5d5f, com.mongodb.KotlinCodecProvider@58b5d5fc]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@42536da6], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T19:10:39.319+05:00 INFO  [cluster-ClusterId{value='684adfdf5f49945260701eac', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10584375, minRoundTripTimeNanos=0}
+2025-06-12T19:10:39.992+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T19:10:40.517+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T19:10:40.531+05:00 INFO  [main] Started ProductServiceApplication in 4.227 seconds (process running for 4.666)
+2025-06-12T19:10:40.703+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:10:40.703+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:10:40.704+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T19:12:02.735+05:00 INFO  [http-nio-8080-exec-5] Creating product ProductRequest[id=null, name=galaxy 24, description=fadf, skuCode=galaxy_24, price=3000]
+2025-06-12T19:12:02.775+05:00 INFO  [http-nio-8080-exec-5] Product created successfully
+2025-06-12T19:12:47.868+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:12:47.870+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:12:50.663+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 81556 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:12:50.669+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:12:51.316+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T19:12:51.339+05:00 INFO  [main] Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interface.
+2025-06-12T19:12:51.729+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T19:12:51.743+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:12:51.744+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:12:51.771+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:12:51.771+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 985 ms
+2025-06-12T19:12:52.143+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@31b289da], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@58486deb, com.mongodb.Jep395RecordCodecProvider@4e933cf1, com.mongodb.KotlinCodecProvider@729a9c3d]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@574327ed], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T19:12:52.152+05:00 INFO  [cluster-ClusterId{value='684ae064d7ed480c4e04abcf', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8954750, minRoundTripTimeNanos=0}
+2025-06-12T19:12:52.773+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T19:12:53.206+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T19:12:53.221+05:00 INFO  [main] Started ProductServiceApplication in 3.304 seconds (process running for 3.997)
+2025-06-12T19:12:53.491+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:12:53.491+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:12:53.493+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T19:18:07.907+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:18:07.921+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:18:13.617+05:00 INFO  [main] Starting ProductServiceApplication using Java 21.0.7 with PID 81977 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:18:13.625+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:18:14.715+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T19:18:14.791+05:00 INFO  [main] Finished Spring Data repository scanning in 54 ms. Found 1 MongoDB repository interface.
+2025-06-12T19:18:15.415+05:00 INFO  [main] Tomcat initialized with port 8080 (http)
+2025-06-12T19:18:15.422+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:18:15.422+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:18:15.497+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:18:15.497+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1559 ms
+2025-06-12T19:18:16.045+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@729a9c3d], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@574327ed, com.mongodb.Jep395RecordCodecProvider@4c7f2fdb, com.mongodb.KotlinCodecProvider@1b5cf611]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@3d01ea33], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T19:18:16.059+05:00 INFO  [cluster-ClusterId{value='684ae1a749eeec1720e81436', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14842042, minRoundTripTimeNanos=0}
+2025-06-12T19:18:16.986+05:00 INFO  [main] Exposing 16 endpoints beneath base path '/actuator'
+2025-06-12T19:18:17.547+05:00 INFO  [main] Tomcat started on port 8080 (http) with context path '/'
+2025-06-12T19:18:17.577+05:00 INFO  [main] Started ProductServiceApplication in 4.407 seconds (process running for 4.913)
+2025-06-12T19:18:18.101+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:18:18.101+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:18:18.106+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 4 ms
+2025-06-12T19:22:48.766+05:00 INFO  [main] Starting ProductServiceApplicationTests using Java 21.0.7 with PID 82252 (started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/product-service)
+2025-06-12T19:22:48.769+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:22:49.448+05:00 INFO  [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-06-12T19:22:49.472+05:00 INFO  [main] Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interface.
+2025-06-12T19:22:51.061+05:00 INFO  [main] MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Darwin", "name": "Mac OS X", "architecture": "aarch64", "version": "15.5"}, "platform": "Java/Amazon.com Inc./21.0.7+6-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@65528bcf], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7bb4f09d, com.mongodb.Jep395RecordCodecProvider@ee7a538, com.mongodb.KotlinCodecProvider@7c045627]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@d79a69b], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-06-12T19:22:51.095+05:00 INFO  [cluster-ClusterId{value='684ae2bbb5525e2b36417410', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11322875, minRoundTripTimeNanos=0}
+2025-06-12T19:22:51.319+05:00 INFO  [main] Exposing 15 endpoints beneath base path '/actuator'
+2025-06-12T19:22:51.828+05:00 INFO  [main] Started ProductServiceApplicationTests in 3.398 seconds (process running for 3.948)
+2025-06-12T19:22:51.891+05:00 INFO  [main] Creating product ProductRequest[id=1, name=Product 1, description=Test Description, skuCode=sku123, price=100.0]
+2025-06-12T19:22:51.895+05:00 INFO  [main] Product created successfully

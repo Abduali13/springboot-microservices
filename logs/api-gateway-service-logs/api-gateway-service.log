@@ -1,0 +1,354 @@
+2025-06-12T06:06:07.631+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 46293 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:06:07.649+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:06:08.419+05:00 INFO  [main] BeanFactory id=98dd24d2-f10c-35d3-adbc-1369881b1fbd
+2025-06-12T06:06:08.783+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T06:06:08.790+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:06:08.790+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:06:08.816+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:06:08.816+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1142 ms
+2025-06-12T06:06:09.932+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T06:06:10.740+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T06:06:10.758+05:00 INFO  [main] Started ApiGatewayApplication in 3.477 seconds (process running for 3.884)
+2025-06-12T06:06:11.239+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:06:11.241+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:06:11.242+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T06:06:58.894+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T06:06:58.917+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T06:07:05.851+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 46385 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:07:05.864+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:07:07.965+05:00 INFO  [main] BeanFactory id=98dd24d2-f10c-35d3-adbc-1369881b1fbd
+2025-06-12T06:07:09.245+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T06:07:09.252+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:07:09.252+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:07:09.296+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:07:09.296+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 3342 ms
+2025-06-12T06:07:11.205+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T06:07:12.682+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T06:07:12.707+05:00 INFO  [main] Started ApiGatewayApplication in 7.946 seconds (process running for 8.999)
+2025-06-12T06:07:13.100+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:07:13.102+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:07:13.112+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 10 ms
+2025-06-12T06:40:11.436+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T06:40:11.442+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T06:40:22.631+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 48568 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:40:22.643+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:40:24.295+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T06:40:25.225+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T06:40:25.232+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:40:25.233+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:40:25.311+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:40:25.311+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2634 ms
+2025-06-12T06:40:33.045+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T06:40:33.735+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T06:40:33.751+05:00 INFO  [main] Started ApiGatewayApplication in 11.711 seconds (process running for 13.086)
+2025-06-12T06:40:34.056+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:40:34.056+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:40:34.060+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 3 ms
+2025-06-12T07:01:50.503+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:01:50.518+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:01:59.432+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 51022 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:01:59.446+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:02:00.657+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T07:02:01.063+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T07:02:01.072+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:02:01.072+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:02:01.103+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:02:01.103+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1623 ms
+2025-06-12T07:02:20.614+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T07:02:21.302+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T07:02:21.321+05:00 INFO  [main] Started ApiGatewayApplication in 22.753 seconds (process running for 24.045)
+2025-06-12T07:02:21.579+05:00 INFO  [RMI TCP Connection(5)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:02:21.579+05:00 INFO  [RMI TCP Connection(5)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:02:21.581+05:00 INFO  [RMI TCP Connection(5)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:13:42.900+05:00 ERROR [http-nio-9000-Acceptor] Error setting socket options
+java.net.SocketException: Invalid argument
+	at java.base/sun.nio.ch.Net.setIntOption0(Native Method)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:447)
+	at java.base/sun.nio.ch.Net.setSocketOption(Net.java:385)
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:287)
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:212)
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:250)
+	at org.apache.tomcat.util.net.SocketProperties.setProperties(SocketProperties.java:215)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:473)
+	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:71)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:148)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T07:13:43.189+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:13:43.441+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:13:54.896+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 51966 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:13:54.902+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:13:56.055+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T07:13:56.505+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T07:13:56.512+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:13:56.512+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:13:56.550+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:13:56.550+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1605 ms
+2025-06-12T07:14:01.183+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T07:14:02.267+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T07:14:02.283+05:00 INFO  [main] Started ApiGatewayApplication in 8.381 seconds (process running for 9.903)
+2025-06-12T07:14:02.597+05:00 INFO  [http-nio-9000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:14:02.598+05:00 INFO  [http-nio-9000-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:14:02.600+05:00 INFO  [http-nio-9000-exec-1] Completed initialization in 2 ms
+2025-06-12T07:19:43.727+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:19:43.733+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:19:49.908+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 52351 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:19:49.919+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:19:50.747+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T07:19:51.088+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T07:19:51.094+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:19:51.095+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:19:51.123+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:19:51.124+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1183 ms
+2025-06-12T07:19:52.153+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T07:19:52.821+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T07:19:52.836+05:00 INFO  [main] Started ApiGatewayApplication in 3.469 seconds (process running for 4.012)
+2025-06-12T07:19:53.112+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:19:53.113+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:19:53.114+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:50:43.118+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-06-12T07:50:43.119+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 5 spans due to InternalServerError(500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error"")
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:228)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T08:36:06.214+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:36:06.230+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:36:08.950+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 53749 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:36:08.956+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:36:09.997+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T08:36:10.452+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T08:36:10.460+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:36:10.460+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:36:10.493+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:36:10.494+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1514 ms
+2025-06-12T08:36:11.991+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T08:36:12.881+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T08:36:12.905+05:00 INFO  [main] Started ApiGatewayApplication in 4.388 seconds (process running for 4.977)
+2025-06-12T08:36:13.050+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:36:13.050+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:36:13.054+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 4 ms
+2025-06-12T08:50:06.080+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:50:06.097+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:50:08.151+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 54613 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:50:08.156+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:50:09.078+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T08:50:09.529+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T08:50:09.536+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:50:09.537+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:50:09.566+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:50:09.567+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1364 ms
+2025-06-12T08:50:11.051+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T08:50:12.029+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T08:50:12.048+05:00 INFO  [main] Started ApiGatewayApplication in 4.253 seconds (process running for 4.709)
+2025-06-12T08:50:12.127+05:00 INFO  [http-nio-9000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:50:12.127+05:00 INFO  [http-nio-9000-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:50:12.128+05:00 INFO  [http-nio-9000-exec-1] Completed initialization in 1 ms
+2025-06-12T10:31:04.063+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T10:31:04.096+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T10:31:13.577+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 60102 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T10:31:13.583+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T10:31:14.622+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T10:31:15.125+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T10:31:15.132+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T10:31:15.133+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T10:31:15.166+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T10:31:15.166+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1475 ms
+2025-06-12T10:31:16.417+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T10:31:17.119+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T10:31:17.135+05:00 INFO  [main] Started ApiGatewayApplication in 4.385 seconds (process running for 5.664)
+2025-06-12T10:31:17.313+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T10:31:17.313+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T10:31:17.315+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T10:56:48.662+05:00 INFO  [http-nio-9000-exec-3] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T10:57:14.150+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T10:58:11.102+05:00 INFO  [http-nio-9000-exec-6] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T10:58:52.072+05:00 INFO  [http-nio-9000-exec-2] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T11:54:16.148+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T11:54:16.167+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:12:13.626+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 68034 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:12:13.631+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:12:14.681+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T15:12:15.196+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T15:12:15.203+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:12:15.203+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:12:15.241+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:12:15.241+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1571 ms
+2025-06-12T15:12:16.325+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T15:12:17.073+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T15:12:17.088+05:00 INFO  [main] Started ApiGatewayApplication in 3.985 seconds (process running for 4.478)
+2025-06-12T15:12:17.431+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:12:17.431+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:12:17.433+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T15:12:57.047+05:00 INFO  [http-nio-9000-exec-8] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:20:56.239+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:20:56.353+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:21:03.185+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 68519 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:21:03.202+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:21:04.602+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T15:21:05.128+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T15:21:05.139+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:21:05.140+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:21:05.173+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:21:05.173+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1924 ms
+2025-06-12T15:21:06.540+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T15:21:07.365+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T15:21:07.386+05:00 INFO  [main] Started ApiGatewayApplication in 4.67 seconds (process running for 5.311)
+2025-06-12T15:21:07.484+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:21:07.484+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:21:07.485+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T15:21:24.322+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:33:54.113+05:00 INFO  [http-nio-9000-exec-8] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:42:21.871+05:00 INFO  [http-nio-9000-exec-2] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:43:41.256+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:43:49.549+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:44:54.162+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:45:00.510+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:45:22.103+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:45:47.140+05:00 INFO  [http-nio-9000-exec-6] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:48:13.443+05:00 INFO  [http-nio-9000-exec-6] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:52:47.167+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:52:47.174+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:52:50.951+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 70431 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:52:50.956+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:52:52.991+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T15:52:53.853+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T15:52:53.865+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:52:53.866+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:52:53.929+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:52:53.932+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2830 ms
+2025-06-12T15:52:57.720+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T15:52:58.693+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T15:52:58.715+05:00 INFO  [main] Started ApiGatewayApplication in 8.392 seconds (process running for 9.034)
+2025-06-12T15:52:59.262+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:52:59.263+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:52:59.264+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T15:55:39.336+05:00 INFO  [http-nio-9000-exec-8] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:56:07.359+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:56:25.587+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:56:28.438+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, ADMIN, CLIENT]
+2025-06-12T15:59:44.058+05:00 INFO  [http-nio-9000-exec-9] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, ADMIN, CLIENT]
+2025-06-12T16:00:17.853+05:00 INFO  [http-nio-9000-exec-3] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T16:01:49.273+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T16:01:53.060+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T16:02:02.874+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT, CLIENT]
+2025-06-12T16:02:20.239+05:00 INFO  [http-nio-9000-exec-3] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T16:02:39.165+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T16:02:42.035+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T16:21:59.658+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-06-12T16:21:59.659+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 5 spans due to InternalServerError(500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error"")
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:228)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T16:43:33.504+05:00 INFO  [http-nio-9000-exec-8] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T16:59:06.433+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T16:59:06.444+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T18:16:51.884+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 78079 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:16:51.887+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:16:53.155+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T18:16:53.824+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T18:16:53.907+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:16:53.907+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:16:53.973+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:16:53.973+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2023 ms
+2025-06-12T18:16:55.810+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T18:16:56.700+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T18:16:56.716+05:00 INFO  [main] Started ApiGatewayApplication in 5.218 seconds (process running for 5.777)
+2025-06-12T18:16:56.860+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:16:56.860+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:16:56.862+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T18:17:19.422+05:00 INFO  [http-nio-9000-exec-6] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:17:31.573+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:49:11.954+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T18:49:11.964+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T18:49:19.374+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 79696 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:49:19.378+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:49:20.411+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T18:49:20.765+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T18:49:20.772+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:49:20.772+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:49:20.800+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:49:20.800+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1399 ms
+2025-06-12T18:49:21.879+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T18:49:22.554+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T18:49:22.569+05:00 INFO  [main] Started ApiGatewayApplication in 3.76 seconds (process running for 4.316)
+2025-06-12T18:49:23.068+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:49:23.069+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:49:23.070+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T18:51:17.762+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:51:33.192+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:51:37.877+05:00 INFO  [http-nio-9000-exec-8] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:52:58.449+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:56:00.735+05:00 INFO  [http-nio-9000-exec-3] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:56:04.863+05:00 INFO  [http-nio-9000-exec-7] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT, ADMIN, CLIENT]
+2025-06-12T18:56:05.150+05:00 INFO  [http-nio-9000-exec-8] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T18:56:14.889+05:00 INFO  [http-nio-9000-exec-8] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T18:57:44.909+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T18:57:49.037+05:00 INFO  [http-nio-9000-exec-9] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T18:58:45.663+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T19:01:50.190+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:01:50.200+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:10:34.787+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 81354 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:10:34.793+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:10:36.156+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T19:10:36.638+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T19:10:36.647+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:10:36.647+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:10:36.679+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:10:36.680+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1837 ms
+2025-06-12T19:10:38.807+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T19:10:39.610+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T19:10:39.628+05:00 INFO  [main] Started ApiGatewayApplication in 5.649 seconds (process running for 6.423)
+2025-06-12T19:10:40.143+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:10:40.143+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:10:40.146+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 3 ms
+2025-06-12T19:11:05.077+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, uma_authorization, CLIENT]
+2025-06-12T19:11:48.278+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:12:02.697+05:00 INFO  [http-nio-9000-exec-10] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:12:04.999+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:14:19.732+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:14:25.411+05:00 INFO  [http-nio-9000-exec-5] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:14:32.998+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:14:35.909+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:18:07.902+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:18:07.909+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:18:12.931+05:00 INFO  [main] Starting ApiGatewayApplication using Java 21.0.7 with PID 81971 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/api-gateway/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:18:12.942+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:18:14.219+05:00 INFO  [main] BeanFactory id=bbd34c81-5a7c-332e-9e68-c6ba55c2d00c
+2025-06-12T19:18:14.685+05:00 INFO  [main] Tomcat initialized with port 9000 (http)
+2025-06-12T19:18:14.692+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:18:14.692+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:18:14.767+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:18:14.767+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1795 ms
+2025-06-12T19:18:16.526+05:00 INFO  [main] Exposing 28 endpoints beneath base path '/actuator'
+2025-06-12T19:18:17.410+05:00 INFO  [main] Tomcat started on port 9000 (http) with context path '/'
+2025-06-12T19:18:17.427+05:00 INFO  [main] Started ApiGatewayApplication in 5.216 seconds (process running for 5.958)
+2025-06-12T19:18:17.522+05:00 INFO  [http-nio-9000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:18:17.523+05:00 INFO  [http-nio-9000-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:18:17.524+05:00 INFO  [http-nio-9000-exec-1] Completed initialization in 1 ms
+2025-06-12T19:18:29.613+05:00 INFO  [http-nio-9000-exec-9] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:18:32.057+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:20:09.464+05:00 INFO  [http-nio-9000-exec-2] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:21:32.138+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]

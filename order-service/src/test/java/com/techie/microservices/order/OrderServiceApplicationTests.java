@@ -34,49 +34,49 @@ class OrderServiceApplicationTests {
 		mySQLContainer.start();
 	}
 
-//	@Test
-//	void shouldSubmitOrder() {
-//		String submitOrderJson = """
-//                {
-//                     "skuCode": "iphone_15",
-//                     "price": 1000,
-//                     "quantity": 1
-//                }
-//                """;
-//		InventoryClientStub.stubInventoryCall("iphone_15", 1);
-//
-//		var responseBodyString = RestAssured.given()
-//				.contentType("application/json")
-//				.body(submitOrderJson)
-//				.when()
-//				.post("/api/order")
-//				.then()
-//				.log().all()
-//				.statusCode(201)
-//				.extract()
-//				.body().asString();
-//
-//		assertThat(responseBodyString, Matchers.is("Order Placed Successfully"));
-//	}
+	@Test
+	void shouldSubmitOrder() {
+		String submitOrderJson = """
+                {
+                     "skuCode": "iphone_15",
+                     "price": 1000,
+                     "quantity": 1
+                }
+                """;
+		InventoryClientStub.stubInventoryCall("iphone_15", 1);
 
-//	@Test
-//	void shouldFailOrderWhenProductIsNotInStock() {
-//		String submitOrderJson = """
-//                {
-//                     "skuCode": "iphone_15",
-//                     "price": 1000,
-//                     "quantity": 1000
-//                }
-//                """;
-//		InventoryClientStub.stubInventoryCall("iphone_15", 1000);
-//
-//		RestAssured.given()
-//				.contentType("application/json")
-//				.body(submitOrderJson)
-//				.when()
-//				.post("/api/order")
-//				.then()
-//				.log().all()
-//				.statusCode(500);
-//	}
+		var responseBodyString = RestAssured.given()
+				.contentType("application/json")
+				.body(submitOrderJson)
+				.when()
+				.post("/api/order")
+				.then()
+				.log().all()
+				.statusCode(201)
+				.extract()
+				.body().asString();
+
+		assertThat(responseBodyString, Matchers.is("Order Placed Successfully"));
+	}
+
+	@Test
+	void shouldFailOrderWhenProductIsNotInStock() {
+		String submitOrderJson = """
+                {
+                     "skuCode": "iphone_15",
+                     "price": 1000,
+                     "quantity": 1000
+                }
+                """;
+		InventoryClientStub.stubInventoryCall("iphone_15", 1000);
+
+		RestAssured.given()
+				.contentType("application/json")
+				.body(submitOrderJson)
+				.when()
+				.post("/api/order")
+				.then()
+				.log().all()
+				.statusCode(500);
+	}
 }

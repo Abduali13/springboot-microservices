@@ -1,0 +1,1734 @@
+2025-06-12T06:06:10.983+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 46309 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:06:10.994+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:06:12.107+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T06:06:12.143+05:00 INFO  [main] Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-06-12T06:06:12.319+05:00 INFO  [main] BeanFactory id=6fa79f03-ce4f-3c20-bcb1-679855d854e2
+2025-06-12T06:06:12.713+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T06:06:12.719+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:06:12.720+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:06:12.750+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:06:12.751+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1459 ms
+2025-06-12T06:06:13.182+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T06:06:44.297+05:00 WARN  [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2025-06-12T06:06:45.312+05:00 WARN  [main] Timed out waiting for in-flight spans to send
+2025-06-12T06:06:45.320+05:00 INFO  [main] Stopping service [Tomcat]
+2025-06-12T06:06:45.350+05:00 INFO  [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12T06:06:45.365+05:00 ERROR [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.techie.microservices.order.OrderServiceApplication.main(OrderServiceApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	... 10 common frames omitted
+Caused by: org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : 08S01
+Error Code : 0
+Message    : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:71)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:76)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:137)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:176)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798)
+	... 17 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:59)
+	... 23 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:592)
+	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:516)
+	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:411)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1331)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 34 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:91)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:130)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:157)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:55)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:72)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:54)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:36)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:586)
+	... 40 common frames omitted
+2025-06-12T06:07:02.477+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 46362 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:07:02.492+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:07:04.232+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T06:07:04.305+05:00 INFO  [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-06-12T06:07:04.893+05:00 INFO  [main] BeanFactory id=6fa79f03-ce4f-3c20-bcb1-679855d854e2
+2025-06-12T06:07:06.077+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T06:07:06.087+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:07:06.087+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:07:06.249+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:07:06.250+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 3490 ms
+2025-06-12T06:07:07.272+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T06:07:07.778+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36a8ebca
+2025-06-12T06:07:07.781+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T06:07:07.871+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T06:07:07.949+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T06:07:08.043+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.077s)
+2025-06-12T06:07:08.137+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T06:07:08.145+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T06:07:08.278+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T06:07:08.362+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T06:07:08.411+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T06:07:09.014+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T06:07:09.237+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T06:07:10.124+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T06:07:10.126+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T06:07:11.066+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T06:07:13.781+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T06:07:14.187+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T06:07:14.210+05:00 INFO  [main] Started OrderServiceApplication in 13.022 seconds (process running for 14.602)
+2025-06-12T06:07:14.314+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:07:14.315+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:07:14.317+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T06:40:11.441+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T06:40:11.450+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T06:40:11.534+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T06:40:11.546+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T06:40:11.625+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T06:40:20.011+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 48562 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T06:40:20.016+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T06:40:22.052+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T06:40:22.183+05:00 INFO  [main] Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
+2025-06-12T06:40:22.531+05:00 INFO  [main] BeanFactory id=40ed1f70-a551-3bff-81da-7ca8ffa6e469
+2025-06-12T06:40:23.699+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T06:40:23.719+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T06:40:23.721+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T06:40:23.791+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T06:40:23.792+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 3517 ms
+2025-06-12T06:40:25.047+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T06:40:25.354+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6894436e
+2025-06-12T06:40:25.356+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T06:40:25.408+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T06:40:25.430+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T06:40:25.501+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.034s)
+2025-06-12T06:40:25.521+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T06:40:25.523+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T06:40:25.602+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T06:40:25.635+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T06:40:25.653+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T06:40:25.826+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T06:40:25.890+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T06:40:26.608+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T06:40:26.610+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T06:40:27.565+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T06:40:29.014+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T06:40:29.217+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T06:40:29.232+05:00 INFO  [main] Started OrderServiceApplication in 10.673 seconds (process running for 12.46)
+2025-06-12T06:40:29.610+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T06:40:29.610+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T06:40:29.611+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:01:50.494+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:01:50.502+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:01:50.550+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:01:50.560+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T07:01:50.606+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T07:01:54.402+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 51008 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:01:54.409+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:01:55.862+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T07:01:55.894+05:00 INFO  [main] Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-06-12T07:01:56.121+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T07:01:56.923+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T07:01:56.932+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:01:56.932+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:01:56.972+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:01:56.972+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2359 ms
+2025-06-12T07:01:58.276+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T07:01:58.515+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d96b8fb
+2025-06-12T07:01:58.524+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T07:01:58.750+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T07:01:58.790+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T07:01:58.866+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.061s)
+2025-06-12T07:01:58.938+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T07:01:58.941+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T07:01:59.150+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T07:01:59.193+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T07:01:59.219+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T07:01:59.436+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T07:01:59.581+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T07:02:00.224+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T07:02:00.226+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:02:01.076+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T07:02:02.302+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T07:02:03.839+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T07:02:03.857+05:00 INFO  [main] Started OrderServiceApplication in 10.084 seconds (process running for 10.782)
+2025-06-12T07:02:04.031+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:02:04.032+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:02:04.035+05:00 INFO  [RMI TCP Connection(8)-127.0.0.1] Completed initialization in 3 ms
+2025-06-12T07:13:43.308+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:13:43.328+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:13:43.372+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:13:43.391+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T07:13:43.424+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T07:13:53.098+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 51963 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:13:53.102+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:13:55.225+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T07:13:55.277+05:00 INFO  [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-06-12T07:13:55.518+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T07:13:56.170+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T07:13:56.190+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:13:56.191+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:13:56.224+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:13:56.224+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2922 ms
+2025-06-12T07:13:56.949+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T07:13:57.218+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69af938b
+2025-06-12T07:13:57.219+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T07:13:57.258+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T07:13:57.283+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T07:13:57.483+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.191s)
+2025-06-12T07:13:57.685+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T07:13:57.692+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T07:13:57.974+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T07:13:58.120+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T07:13:58.152+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T07:13:58.490+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T07:13:58.596+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T07:13:59.615+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T07:13:59.617+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:14:00.973+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T07:14:02.177+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T07:14:03.475+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T07:14:03.496+05:00 INFO  [main] Started OrderServiceApplication in 11.263 seconds (process running for 12.198)
+2025-06-12T07:14:03.732+05:00 INFO  [RMI TCP Connection(6)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:14:03.732+05:00 INFO  [RMI TCP Connection(6)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:14:03.733+05:00 INFO  [RMI TCP Connection(6)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T07:17:51.250+05:00 INFO  [http-nio-8081-exec-3] Start - Sending OrderPlacedEvent {"orderNumber": "8ab70610-cd7a-4b3c-ba95-ab4a5db2e6aa", "email": "user@gmail.com", "firstName": null, "lastName": null, "role": null} to Kafka topic order-placed
+2025-06-12T07:17:51.279+05:00 INFO  [http-nio-8081-exec-3] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = order-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2025-06-12T07:17:51.299+05:00 INFO  [http-nio-8081-exec-3] initializing Kafka metrics collector
+2025-06-12T07:17:51.316+05:00 INFO  [http-nio-8081-exec-3] KafkaAvroSerializerConfig values: 
+	auto.register.schemas = true
+	avro.reflection.allow.null = false
+	avro.remove.java.properties = false
+	avro.use.logical.type.converters = false
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.cache.expiry.buffer.seconds = 300
+	bearer.auth.client.id = null
+	bearer.auth.client.secret = null
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.custom.provider.class = null
+	bearer.auth.identity.pool.id = null
+	bearer.auth.issuer.endpoint.url = null
+	bearer.auth.logical.cluster = null
+	bearer.auth.scope = null
+	bearer.auth.scope.claim.name = scope
+	bearer.auth.sub.claim.name = sub
+	bearer.auth.token = [hidden]
+	context.name.strategy = class io.confluent.kafka.serializers.context.NullContextNameStrategy
+	http.connect.timeout.ms = 60000
+	http.read.timeout.ms = 60000
+	id.compatibility.strict = true
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.cache.size = 1000
+	latest.cache.ttl.sec = -1
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	normalize.schemas = false
+	proxy.host = 
+	proxy.port = -1
+	rule.actions = []
+	rule.executors = []
+	rule.service.loader.enable = true
+	schema.format = null
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.engine.factory.class = null
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.certificate.chain = null
+	schema.registry.ssl.keystore.key = null
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLSv1.3
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.certificates = null
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://127.0.0.1:8085]
+	use.latest.version = false
+	use.latest.with.metadata = null
+	use.schema.id = -1
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2025-06-12T07:17:51.332+05:00 INFO  [http-nio-8081-exec-3] [Producer clientId=order-service-producer-1] Instantiated an idempotent producer.
+2025-06-12T07:17:51.373+05:00 INFO  [http-nio-8081-exec-3] These configurations '[schema.registry.url]' were supplied but are not used yet.
+2025-06-12T07:17:51.374+05:00 INFO  [http-nio-8081-exec-3] Kafka version: 3.8.1
+2025-06-12T07:17:51.374+05:00 INFO  [http-nio-8081-exec-3] Kafka commitId: 70d6ff42debf7e17
+2025-06-12T07:17:51.374+05:00 INFO  [http-nio-8081-exec-3] Kafka startTimeMs: 1749694671373
+2025-06-12T07:17:51.575+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Cluster ID: rn1sZhdCQ0CZ-49QHq7cHw
+2025-06-12T07:17:51.578+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] ProducerId set to 5004 with epoch 0
+2025-06-12T07:17:51.885+05:00 INFO  [http-nio-8081-exec-3] End - Sending OrderPlacedEvent {"orderNumber": "8ab70610-cd7a-4b3c-ba95-ab4a5db2e6aa", "email": "user@gmail.com", "firstName": null, "lastName": null, "role": null} to Kafka topic order-placed
+2025-06-12T07:19:43.731+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T07:19:43.737+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T07:19:43.747+05:00 INFO  [SpringApplicationShutdownHook] [Producer clientId=order-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-06-12T07:19:43.770+05:00 INFO  [SpringApplicationShutdownHook] Metrics scheduler closed
+2025-06-12T07:19:43.775+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-06-12T07:19:43.776+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-06-12T07:19:43.776+05:00 INFO  [SpringApplicationShutdownHook] Metrics reporters closed
+2025-06-12T07:19:43.780+05:00 INFO  [SpringApplicationShutdownHook] App info kafka.producer for order-service-producer-1 unregistered
+2025-06-12T07:19:43.814+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:19:43.824+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T07:19:43.864+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T07:19:46.713+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 52336 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T07:19:46.729+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T07:19:48.312+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T07:19:48.369+05:00 INFO  [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-06-12T07:19:48.564+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T07:19:49.354+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T07:19:49.363+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T07:19:49.363+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T07:19:49.412+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T07:19:49.412+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2423 ms
+2025-06-12T07:19:50.118+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T07:19:50.299+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c485b3a
+2025-06-12T07:19:50.300+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T07:19:50.342+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T07:19:50.362+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T07:19:50.435+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.065s)
+2025-06-12T07:19:50.503+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T07:19:50.505+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T07:19:50.582+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T07:19:50.610+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T07:19:50.627+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T07:19:50.767+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T07:19:50.813+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T07:19:51.196+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T07:19:51.197+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T07:19:51.830+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T07:19:52.502+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T07:19:53.495+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T07:19:53.510+05:00 INFO  [main] Started OrderServiceApplication in 7.172 seconds (process running for 7.658)
+2025-06-12T07:19:53.660+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T07:19:53.660+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T07:19:53.662+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T07:20:10.537+05:00 INFO  [http-nio-8081-exec-9] Start - Sending OrderPlacedEvent {"orderNumber": "f6ce8053-a8b2-464e-8e57-c83b415462cf", "email": "user@gmail.com", "firstName": null, "lastName": null, "role": null} to Kafka topic order-placed
+2025-06-12T07:20:10.555+05:00 INFO  [http-nio-8081-exec-9] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = order-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2025-06-12T07:20:10.578+05:00 INFO  [http-nio-8081-exec-9] initializing Kafka metrics collector
+2025-06-12T07:20:10.599+05:00 INFO  [http-nio-8081-exec-9] KafkaAvroSerializerConfig values: 
+	auto.register.schemas = true
+	avro.reflection.allow.null = false
+	avro.remove.java.properties = false
+	avro.use.logical.type.converters = false
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.cache.expiry.buffer.seconds = 300
+	bearer.auth.client.id = null
+	bearer.auth.client.secret = null
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.custom.provider.class = null
+	bearer.auth.identity.pool.id = null
+	bearer.auth.issuer.endpoint.url = null
+	bearer.auth.logical.cluster = null
+	bearer.auth.scope = null
+	bearer.auth.scope.claim.name = scope
+	bearer.auth.sub.claim.name = sub
+	bearer.auth.token = [hidden]
+	context.name.strategy = class io.confluent.kafka.serializers.context.NullContextNameStrategy
+	http.connect.timeout.ms = 60000
+	http.read.timeout.ms = 60000
+	id.compatibility.strict = true
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.cache.size = 1000
+	latest.cache.ttl.sec = -1
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	normalize.schemas = false
+	proxy.host = 
+	proxy.port = -1
+	rule.actions = []
+	rule.executors = []
+	rule.service.loader.enable = true
+	schema.format = null
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.engine.factory.class = null
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.certificate.chain = null
+	schema.registry.ssl.keystore.key = null
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLSv1.3
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.certificates = null
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://127.0.0.1:8085]
+	use.latest.version = false
+	use.latest.with.metadata = null
+	use.schema.id = -1
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2025-06-12T07:20:10.617+05:00 INFO  [http-nio-8081-exec-9] [Producer clientId=order-service-producer-1] Instantiated an idempotent producer.
+2025-06-12T07:20:10.637+05:00 INFO  [http-nio-8081-exec-9] These configurations '[schema.registry.url]' were supplied but are not used yet.
+2025-06-12T07:20:10.638+05:00 INFO  [http-nio-8081-exec-9] Kafka version: 3.8.1
+2025-06-12T07:20:10.638+05:00 INFO  [http-nio-8081-exec-9] Kafka commitId: 70d6ff42debf7e17
+2025-06-12T07:20:10.638+05:00 INFO  [http-nio-8081-exec-9] Kafka startTimeMs: 1749694810638
+2025-06-12T07:20:10.810+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Cluster ID: rn1sZhdCQ0CZ-49QHq7cHw
+2025-06-12T07:20:10.811+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] ProducerId set to 5005 with epoch 0
+2025-06-12T07:20:10.901+05:00 INFO  [http-nio-8081-exec-9] End - Sending OrderPlacedEvent {"orderNumber": "f6ce8053-a8b2-464e-8e57-c83b415462cf", "email": "user@gmail.com", "firstName": null, "lastName": null, "role": null} to Kafka topic order-placed
+2025-06-12T07:29:40.850+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Node -1 disconnected.
+2025-06-12T07:50:43.105+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-06-12T07:50:43.107+05:00 WARN  [AsyncReporter{ZipkinRestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 5 spans due to InternalServerError(500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error"")
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error on POST request for "http://localhost:9411/api/v2/spans": ""Internal Server Error""
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:228)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender.postSpans(ZipkinRestTemplateSender.java:50)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41)
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123)
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266)
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-12T07:50:46.470+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s889ms).
+2025-06-12T08:07:12.154+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s672ms).
+2025-06-12T08:23:01.904+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m49s750ms).
+2025-06-12T08:33:38.145+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m36s240ms).
+2025-06-12T08:35:28.447+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Node -1 disconnected.
+2025-06-12T08:36:06.212+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:36:06.221+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:36:06.249+05:00 INFO  [SpringApplicationShutdownHook] [Producer clientId=order-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-06-12T08:36:06.285+05:00 INFO  [SpringApplicationShutdownHook] Metrics scheduler closed
+2025-06-12T08:36:06.286+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-06-12T08:36:06.286+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-06-12T08:36:06.286+05:00 INFO  [SpringApplicationShutdownHook] Metrics reporters closed
+2025-06-12T08:36:06.287+05:00 INFO  [SpringApplicationShutdownHook] App info kafka.producer for order-service-producer-1 unregistered
+2025-06-12T08:36:06.312+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:36:06.317+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T08:36:06.334+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T08:36:10.842+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 53764 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:36:10.860+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:36:11.976+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T08:36:12.021+05:00 INFO  [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-06-12T08:36:12.213+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T08:36:12.814+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T08:36:12.822+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:36:12.822+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:36:12.861+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:36:12.861+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1817 ms
+2025-06-12T08:36:13.887+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T08:36:14.052+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d164938
+2025-06-12T08:36:14.054+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T08:36:14.088+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T08:36:14.107+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T08:36:14.141+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.026s)
+2025-06-12T08:36:14.247+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T08:36:14.249+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T08:36:14.341+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T08:36:14.383+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T08:36:14.401+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T08:36:14.564+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T08:36:14.611+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T08:36:15.006+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T08:36:15.007+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:36:15.640+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T08:36:16.497+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T08:36:17.557+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T08:36:17.572+05:00 INFO  [main] Started OrderServiceApplication in 7.156 seconds (process running for 7.619)
+2025-06-12T08:36:17.785+05:00 INFO  [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:36:17.785+05:00 INFO  [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:36:17.787+05:00 INFO  [http-nio-8081-exec-1] Completed initialization in 2 ms
+2025-06-12T08:50:06.088+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T08:50:06.108+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T08:50:06.154+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:50:06.170+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T08:50:06.209+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T08:50:10.004+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 54627 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T08:50:10.010+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T08:50:11.236+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T08:50:11.334+05:00 INFO  [main] Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2025-06-12T08:50:11.599+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T08:50:12.188+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T08:50:12.197+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T08:50:12.198+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T08:50:12.237+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T08:50:12.237+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2075 ms
+2025-06-12T08:50:12.749+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T08:50:12.917+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d76d72a
+2025-06-12T08:50:12.918+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T08:50:12.952+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T08:50:12.962+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T08:50:12.990+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.022s)
+2025-06-12T08:50:13.006+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T08:50:13.008+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T08:50:13.084+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T08:50:13.114+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T08:50:13.131+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T08:50:13.267+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T08:50:13.312+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T08:50:13.677+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T08:50:13.679+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T08:50:14.277+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T08:50:14.967+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T08:50:15.883+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T08:50:15.898+05:00 INFO  [main] Started OrderServiceApplication in 6.35 seconds (process running for 6.886)
+2025-06-12T08:50:16.379+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T08:50:16.380+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T08:50:16.381+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T10:31:04.074+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T10:31:04.100+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T10:31:04.165+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T10:31:04.181+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T10:31:04.204+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T10:31:10.467+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 60099 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T10:31:10.493+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T10:31:12.950+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T10:31:13.042+05:00 INFO  [main] Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2025-06-12T10:31:13.564+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T10:31:14.376+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T10:31:14.385+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T10:31:14.385+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T10:31:14.424+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T10:31:14.425+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 3770 ms
+2025-06-12T10:31:15.089+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T10:31:15.244+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@218fc40d
+2025-06-12T10:31:15.245+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T10:31:15.279+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T10:31:15.300+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T10:31:15.340+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.033s)
+2025-06-12T10:31:15.368+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T10:31:15.374+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T10:31:15.471+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T10:31:15.506+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T10:31:15.521+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T10:31:15.724+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T10:31:15.768+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T10:31:16.167+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T10:31:16.169+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T10:31:16.818+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T10:31:17.650+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T10:31:18.621+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T10:31:18.647+05:00 INFO  [main] Started OrderServiceApplication in 8.708 seconds (process running for 9.381)
+2025-06-12T10:31:18.828+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T10:31:18.828+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T10:31:18.829+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T11:54:16.171+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T11:54:16.191+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T11:54:16.231+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T11:54:16.249+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T15:12:12.735+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 68026 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:12:12.739+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:12:13.863+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T15:12:13.910+05:00 INFO  [main] Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-06-12T15:12:14.097+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T15:12:14.665+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T15:12:14.676+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:12:14.677+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:12:14.725+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:12:14.726+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1838 ms
+2025-06-12T15:12:15.361+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T15:12:33.825+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cfa9e8a
+2025-06-12T15:12:33.828+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T15:12:34.104+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T15:12:34.436+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T15:12:34.556+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.059s)
+2025-06-12T15:12:34.629+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T15:12:34.638+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T15:12:34.960+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T15:12:35.047+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T15:12:35.165+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T15:12:35.479+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T15:12:35.588+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T15:12:36.346+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T15:12:36.349+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:12:38.540+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T15:12:39.700+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T15:12:40.836+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T15:12:40.854+05:00 INFO  [main] Started OrderServiceApplication in 28.576 seconds (process running for 29.065)
+2025-06-12T15:12:41.268+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:12:41.268+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:12:41.272+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 3 ms
+2025-06-12T15:20:56.231+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:20:56.300+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:20:56.440+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:20:56.454+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T15:20:56.500+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T15:21:00.281+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 68506 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:21:00.284+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:21:01.565+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T15:21:01.602+05:00 INFO  [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2025-06-12T15:21:01.892+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T15:21:02.794+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T15:21:02.807+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:21:02.807+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:21:02.859+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:21:02.859+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2334 ms
+2025-06-12T15:21:03.513+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T15:21:03.858+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cd079fe
+2025-06-12T15:21:03.859+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T15:21:03.902+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T15:21:03.917+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T15:21:03.946+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.021s)
+2025-06-12T15:21:03.963+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T15:21:03.965+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T15:21:04.054+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T15:21:04.101+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T15:21:04.133+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T15:21:04.509+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T15:21:04.602+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T15:21:05.186+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T15:21:05.188+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:21:06.006+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T15:21:06.927+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T15:21:08.100+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T15:21:08.119+05:00 INFO  [main] Started OrderServiceApplication in 8.425 seconds (process running for 8.928)
+2025-06-12T15:21:08.281+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:21:08.281+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:21:08.283+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T15:52:47.160+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T15:52:47.171+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T15:52:47.202+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:52:47.235+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T15:52:47.270+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T15:52:56.510+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 70453 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T15:52:56.517+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T15:52:58.339+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T15:52:58.377+05:00 INFO  [main] Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-06-12T15:52:58.613+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T15:52:59.374+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T15:52:59.386+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T15:52:59.386+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T15:52:59.505+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T15:52:59.506+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2457 ms
+2025-06-12T15:53:00.207+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T15:53:00.353+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3792fed8
+2025-06-12T15:53:00.357+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T15:53:00.405+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T15:53:00.417+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T15:53:00.452+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.027s)
+2025-06-12T15:53:00.469+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T15:53:00.472+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T15:53:00.563+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T15:53:00.601+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T15:53:00.627+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T15:53:00.928+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T15:53:01.010+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T15:53:01.431+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T15:53:01.433+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T15:53:02.165+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T15:53:02.951+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T15:53:04.411+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T15:53:04.426+05:00 INFO  [main] Started OrderServiceApplication in 9.283 seconds (process running for 10.282)
+2025-06-12T15:53:04.910+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T15:53:04.911+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T15:53:04.914+05:00 INFO  [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T16:22:11.732+05:00 WARN  [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m41s185ms).
+2025-06-12T16:59:06.444+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T16:59:06.459+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T16:59:06.519+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T16:59:06.531+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T16:59:06.552+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T18:16:55.891+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 78086 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:16:55.900+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:16:56.877+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T18:16:56.910+05:00 INFO  [main] Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-06-12T18:16:57.095+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T18:16:57.532+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T18:16:57.540+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:16:57.541+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:16:57.571+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:16:57.572+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1471 ms
+2025-06-12T18:16:58.032+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T18:16:58.162+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@488c6c98
+2025-06-12T18:16:58.163+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T18:16:58.210+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T18:16:58.225+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T18:16:58.251+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.020s)
+2025-06-12T18:16:58.273+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T18:16:58.276+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T18:16:58.347+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T18:16:58.374+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T18:16:58.392+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T18:16:58.535+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T18:16:58.579+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T18:16:58.954+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T18:16:58.956+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T18:16:59.582+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T18:17:00.412+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T18:17:01.504+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T18:17:01.531+05:00 INFO  [main] Started OrderServiceApplication in 6.147 seconds (process running for 6.769)
+2025-06-12T18:17:02.109+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:17:02.109+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:17:02.111+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T18:49:11.954+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T18:49:11.970+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T18:49:12.017+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T18:49:12.028+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T18:49:12.057+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T18:49:18.182+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 79691 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T18:49:18.203+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T18:49:19.573+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T18:49:19.617+05:00 INFO  [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2025-06-12T18:49:19.973+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T18:49:20.502+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T18:49:20.509+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T18:49:20.509+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T18:49:20.539+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T18:49:20.539+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2012 ms
+2025-06-12T18:49:21.028+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T18:49:21.185+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ad6255e
+2025-06-12T18:49:21.187+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T18:49:21.228+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T18:49:21.255+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T18:49:21.282+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.020s)
+2025-06-12T18:49:21.296+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T18:49:21.303+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T18:49:21.388+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T18:49:21.426+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T18:49:21.443+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T18:49:21.590+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T18:49:21.643+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T18:49:22.018+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T18:49:22.019+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T18:49:22.655+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T18:49:23.465+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T18:49:24.479+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T18:49:24.495+05:00 INFO  [main] Started OrderServiceApplication in 6.918 seconds (process running for 7.653)
+2025-06-12T18:49:25.016+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T18:49:25.016+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T18:49:25.017+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T19:01:50.197+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:01:50.210+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:01:50.230+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:01:50.248+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:01:50.265+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T19:10:38.339+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 81374 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:10:38.372+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:10:39.384+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T19:10:39.419+05:00 INFO  [main] Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2025-06-12T19:10:39.597+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T19:10:40.100+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T19:10:40.108+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:10:40.108+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:10:40.151+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:10:40.152+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1587 ms
+2025-06-12T19:10:40.685+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T19:10:40.851+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e7797db
+2025-06-12T19:10:40.853+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T19:10:40.907+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T19:10:40.923+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T19:10:40.949+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.020s)
+2025-06-12T19:10:40.961+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T19:10:40.963+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T19:10:41.035+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T19:10:41.067+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T19:10:41.084+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T19:10:41.247+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T19:10:41.295+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T19:10:41.674+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T19:10:41.676+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:10:42.309+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T19:10:43.060+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T19:10:44.049+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T19:10:44.064+05:00 INFO  [main] Started OrderServiceApplication in 6.379 seconds (process running for 7.155)
+2025-06-12T19:10:44.325+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:10:44.325+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:10:44.326+05:00 INFO  [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T19:14:25.834+05:00 INFO  [http-nio-8081-exec-2] Start - Sending OrderPlacedEvent {"orderNumber": "737ae0a9-155b-4a64-862a-095c053c7286", "email": "testuser@gmail.com", "firstName": null, "lastName": null, "skuCode": "galaxy_24", "quantity": 10, "price": 3000, "role": null} to Kafka topic order-placed
+2025-06-12T19:14:25.853+05:00 INFO  [http-nio-8081-exec-2] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = order-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2025-06-12T19:14:25.877+05:00 INFO  [http-nio-8081-exec-2] initializing Kafka metrics collector
+2025-06-12T19:14:25.896+05:00 INFO  [http-nio-8081-exec-2] KafkaAvroSerializerConfig values: 
+	auto.register.schemas = true
+	avro.reflection.allow.null = false
+	avro.remove.java.properties = false
+	avro.use.logical.type.converters = false
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.cache.expiry.buffer.seconds = 300
+	bearer.auth.client.id = null
+	bearer.auth.client.secret = null
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.custom.provider.class = null
+	bearer.auth.identity.pool.id = null
+	bearer.auth.issuer.endpoint.url = null
+	bearer.auth.logical.cluster = null
+	bearer.auth.scope = null
+	bearer.auth.scope.claim.name = scope
+	bearer.auth.sub.claim.name = sub
+	bearer.auth.token = [hidden]
+	context.name.strategy = class io.confluent.kafka.serializers.context.NullContextNameStrategy
+	http.connect.timeout.ms = 60000
+	http.read.timeout.ms = 60000
+	id.compatibility.strict = true
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.cache.size = 1000
+	latest.cache.ttl.sec = -1
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	normalize.schemas = false
+	proxy.host = 
+	proxy.port = -1
+	rule.actions = []
+	rule.executors = []
+	rule.service.loader.enable = true
+	schema.format = null
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.engine.factory.class = null
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.certificate.chain = null
+	schema.registry.ssl.keystore.key = null
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLSv1.3
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.certificates = null
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://127.0.0.1:8085]
+	use.latest.version = false
+	use.latest.with.metadata = null
+	use.schema.id = -1
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2025-06-12T19:14:25.920+05:00 INFO  [http-nio-8081-exec-2] [Producer clientId=order-service-producer-1] Instantiated an idempotent producer.
+2025-06-12T19:14:25.942+05:00 INFO  [http-nio-8081-exec-2] These configurations '[schema.registry.url]' were supplied but are not used yet.
+2025-06-12T19:14:25.945+05:00 INFO  [http-nio-8081-exec-2] Kafka version: 3.8.1
+2025-06-12T19:14:25.945+05:00 INFO  [http-nio-8081-exec-2] Kafka commitId: 70d6ff42debf7e17
+2025-06-12T19:14:25.946+05:00 INFO  [http-nio-8081-exec-2] Kafka startTimeMs: 1749737665942
+2025-06-12T19:14:26.157+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Cluster ID: rn1sZhdCQ0CZ-49QHq7cHw
+2025-06-12T19:14:26.157+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] ProducerId set to 5006 with epoch 0
+2025-06-12T19:14:26.477+05:00 ERROR [http-nio-8081-exec-2] Exception thrown when sending a message with key='null' and payload='{"orderNumber": "737ae0a9-155b-4a64-862a-095c053c7286", "email": "testuser@gmail.com", "firstName": ...' to topic order-placed:
+org.apache.kafka.common.errors.InvalidConfigurationException: Schema being registered is incompatible with an earlier schema for subject "order-placed-value", details: [{errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'quantity' at path '/fields/5' in the new schema has no default value and is missing in the old schema', additionalInfo:'quantity'}, {errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'price' at path '/fields/6' in the new schema has no default value and is missing in the old schema', additionalInfo:'price'}, {oldSchemaVersion: 2}, {oldSchema: '{"type":"record","name":"OrderPlacedEvent","namespace":"com.techie.microservices.order.event","fields":[{"name":"orderNumber","type":["null","string"],"default":null},{"name":"email","type":["null","string"],"default":null},{"name":"firstName","type":["null","string"],"default":null},{"name":"lastName","type":["null","string"],"default":null},{"name":"role","type":["null",{"type":"array","items":"string"}],"default":null}]}'}, {compatibility: 'BACKWARD'}]; error code: 409
+2025-06-12T19:14:26.481+05:00 ERROR [http-nio-8081-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.kafka.KafkaException: Send failed] with root cause
+org.apache.kafka.common.errors.InvalidConfigurationException: Schema being registered is incompatible with an earlier schema for subject "order-placed-value", details: [{errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'quantity' at path '/fields/5' in the new schema has no default value and is missing in the old schema', additionalInfo:'quantity'}, {errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'price' at path '/fields/6' in the new schema has no default value and is missing in the old schema', additionalInfo:'price'}, {oldSchemaVersion: 2}, {oldSchema: '{"type":"record","name":"OrderPlacedEvent","namespace":"com.techie.microservices.order.event","fields":[{"name":"orderNumber","type":["null","string"],"default":null},{"name":"email","type":["null","string"],"default":null},{"name":"firstName","type":["null","string"],"default":null},{"name":"lastName","type":["null","string"],"default":null},{"name":"role","type":["null",{"type":"array","items":"string"}],"default":null}]}'}, {compatibility: 'BACKWARD'}]; error code: 409
+2025-06-12T19:14:35.983+05:00 INFO  [http-nio-8081-exec-8] Start - Sending OrderPlacedEvent {"orderNumber": "c6155a01-4311-47d9-bf94-55bd9585e3e8", "email": "testuser@gmail.com", "firstName": null, "lastName": null, "skuCode": "galaxy_24", "quantity": 10, "price": 3000, "role": null} to Kafka topic order-placed
+2025-06-12T19:14:36.035+05:00 ERROR [http-nio-8081-exec-8] Exception thrown when sending a message with key='null' and payload='{"orderNumber": "c6155a01-4311-47d9-bf94-55bd9585e3e8", "email": "testuser@gmail.com", "firstName": ...' to topic order-placed:
+org.apache.kafka.common.errors.InvalidConfigurationException: Schema being registered is incompatible with an earlier schema for subject "order-placed-value", details: [{errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'quantity' at path '/fields/5' in the new schema has no default value and is missing in the old schema', additionalInfo:'quantity'}, {errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'price' at path '/fields/6' in the new schema has no default value and is missing in the old schema', additionalInfo:'price'}, {oldSchemaVersion: 2}, {oldSchema: '{"type":"record","name":"OrderPlacedEvent","namespace":"com.techie.microservices.order.event","fields":[{"name":"orderNumber","type":["null","string"],"default":null},{"name":"email","type":["null","string"],"default":null},{"name":"firstName","type":["null","string"],"default":null},{"name":"lastName","type":["null","string"],"default":null},{"name":"role","type":["null",{"type":"array","items":"string"}],"default":null}]}'}, {compatibility: 'BACKWARD'}]; error code: 409
+2025-06-12T19:14:36.041+05:00 ERROR [http-nio-8081-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.kafka.KafkaException: Send failed] with root cause
+org.apache.kafka.common.errors.InvalidConfigurationException: Schema being registered is incompatible with an earlier schema for subject "order-placed-value", details: [{errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'quantity' at path '/fields/5' in the new schema has no default value and is missing in the old schema', additionalInfo:'quantity'}, {errorType:'READER_FIELD_MISSING_DEFAULT_VALUE', description:'The field 'price' at path '/fields/6' in the new schema has no default value and is missing in the old schema', additionalInfo:'price'}, {oldSchemaVersion: 2}, {oldSchema: '{"type":"record","name":"OrderPlacedEvent","namespace":"com.techie.microservices.order.event","fields":[{"name":"orderNumber","type":["null","string"],"default":null},{"name":"email","type":["null","string"],"default":null},{"name":"firstName","type":["null","string"],"default":null},{"name":"lastName","type":["null","string"],"default":null},{"name":"role","type":["null",{"type":"array","items":"string"}],"default":null}]}'}, {compatibility: 'BACKWARD'}]; error code: 409
+2025-06-12T19:18:07.904+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:18:07.918+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:18:07.927+05:00 INFO  [SpringApplicationShutdownHook] [Producer clientId=order-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-06-12T19:18:07.976+05:00 INFO  [SpringApplicationShutdownHook] Metrics scheduler closed
+2025-06-12T19:18:07.977+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-06-12T19:18:07.978+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-06-12T19:18:07.979+05:00 INFO  [SpringApplicationShutdownHook] Metrics reporters closed
+2025-06-12T19:18:07.991+05:00 INFO  [SpringApplicationShutdownHook] App info kafka.producer for order-service-producer-1 unregistered
+2025-06-12T19:18:08.037+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:18:08.053+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:18:08.075+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T19:18:11.515+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 81963 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:18:11.521+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:18:13.070+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T19:18:13.141+05:00 INFO  [main] Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
+2025-06-12T19:18:13.353+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T19:18:14.218+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T19:18:14.227+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:18:14.228+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:18:14.268+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:18:14.268+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 2488 ms
+2025-06-12T19:18:15.024+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T19:18:15.253+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5605a59b
+2025-06-12T19:18:15.254+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T19:18:15.300+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T19:18:15.381+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T19:18:15.431+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.033s)
+2025-06-12T19:18:15.492+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T19:18:15.495+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T19:18:15.584+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T19:18:15.627+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T19:18:15.657+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T19:18:15.894+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T19:18:15.963+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T19:18:16.638+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T19:18:16.639+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:18:17.418+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T19:18:18.361+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T19:18:19.500+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T19:18:19.523+05:00 INFO  [main] Started OrderServiceApplication in 8.427 seconds (process running for 8.917)
+2025-06-12T19:18:20.066+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:18:20.067+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:18:20.068+05:00 INFO  [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2025-06-12T19:18:32.698+05:00 INFO  [http-nio-8081-exec-7] Start - Sending OrderPlacedEvent {"orderNumber": "0246c677-0b74-4667-bb33-53d0d800fda3", "email": "testuser@gmail.com", "firstName": null, "lastName": null} to Kafka topic order-placed
+2025-06-12T19:18:32.791+05:00 INFO  [http-nio-8081-exec-7] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = order-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2025-06-12T19:18:32.861+05:00 INFO  [http-nio-8081-exec-7] initializing Kafka metrics collector
+2025-06-12T19:18:32.902+05:00 INFO  [http-nio-8081-exec-7] KafkaAvroSerializerConfig values: 
+	auto.register.schemas = true
+	avro.reflection.allow.null = false
+	avro.remove.java.properties = false
+	avro.use.logical.type.converters = false
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.cache.expiry.buffer.seconds = 300
+	bearer.auth.client.id = null
+	bearer.auth.client.secret = null
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.custom.provider.class = null
+	bearer.auth.identity.pool.id = null
+	bearer.auth.issuer.endpoint.url = null
+	bearer.auth.logical.cluster = null
+	bearer.auth.scope = null
+	bearer.auth.scope.claim.name = scope
+	bearer.auth.sub.claim.name = sub
+	bearer.auth.token = [hidden]
+	context.name.strategy = class io.confluent.kafka.serializers.context.NullContextNameStrategy
+	http.connect.timeout.ms = 60000
+	http.read.timeout.ms = 60000
+	id.compatibility.strict = true
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.cache.size = 1000
+	latest.cache.ttl.sec = -1
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	normalize.schemas = false
+	proxy.host = 
+	proxy.port = -1
+	rule.actions = []
+	rule.executors = []
+	rule.service.loader.enable = true
+	schema.format = null
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.engine.factory.class = null
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.certificate.chain = null
+	schema.registry.ssl.keystore.key = null
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLSv1.3
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.certificates = null
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://127.0.0.1:8085]
+	use.latest.version = false
+	use.latest.with.metadata = null
+	use.schema.id = -1
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2025-06-12T19:18:32.946+05:00 INFO  [http-nio-8081-exec-7] [Producer clientId=order-service-producer-1] Instantiated an idempotent producer.
+2025-06-12T19:18:32.983+05:00 INFO  [http-nio-8081-exec-7] These configurations '[schema.registry.url]' were supplied but are not used yet.
+2025-06-12T19:18:32.984+05:00 INFO  [http-nio-8081-exec-7] Kafka version: 3.8.1
+2025-06-12T19:18:32.985+05:00 INFO  [http-nio-8081-exec-7] Kafka commitId: 70d6ff42debf7e17
+2025-06-12T19:18:32.985+05:00 INFO  [http-nio-8081-exec-7] Kafka startTimeMs: 1749737912984
+2025-06-12T19:18:33.383+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Cluster ID: rn1sZhdCQ0CZ-49QHq7cHw
+2025-06-12T19:18:33.384+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] ProducerId set to 5007 with epoch 0
+2025-06-12T19:18:33.568+05:00 INFO  [http-nio-8081-exec-7] End - Sending OrderPlacedEvent {"orderNumber": "0246c677-0b74-4667-bb33-53d0d800fda3", "email": "testuser@gmail.com", "firstName": null, "lastName": null} to Kafka topic order-placed
+2025-06-12T19:20:09.596+05:00 INFO  [http-nio-8081-exec-7] Start - Sending OrderPlacedEvent {"orderNumber": "37758e0b-391d-4711-abce-71f9a4409419", "email": "testuser@gmail.com", "firstName": null, "lastName": null} to Kafka topic order-placed
+2025-06-12T19:20:09.598+05:00 INFO  [http-nio-8081-exec-7] End - Sending OrderPlacedEvent {"orderNumber": "37758e0b-391d-4711-abce-71f9a4409419", "email": "testuser@gmail.com", "firstName": null, "lastName": null} to Kafka topic order-placed
+2025-06-12T19:21:13.584+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:21:13.588+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:21:13.590+05:00 INFO  [SpringApplicationShutdownHook] [Producer clientId=order-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-06-12T19:21:13.597+05:00 INFO  [SpringApplicationShutdownHook] Metrics scheduler closed
+2025-06-12T19:21:13.597+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-06-12T19:21:13.597+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-06-12T19:21:13.597+05:00 INFO  [SpringApplicationShutdownHook] Metrics reporters closed
+2025-06-12T19:21:13.598+05:00 INFO  [SpringApplicationShutdownHook] App info kafka.producer for order-service-producer-1 unregistered
+2025-06-12T19:21:13.619+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:21:13.624+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:21:13.709+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-06-12T19:21:17.959+05:00 INFO  [main] Starting OrderServiceApplication using Java 21.0.7 with PID 82163 (/Users/doniyor/Documents/Java/programmingtechie/springboot-microservices/order-service/target/classes started by doniyor in /Users/doniyor/Documents/Java/programmingtechie/springboot-microservices)
+2025-06-12T19:21:17.962+05:00 INFO  [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-12T19:21:18.868+05:00 INFO  [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T19:21:18.907+05:00 INFO  [main] Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
+2025-06-12T19:21:19.092+05:00 INFO  [main] BeanFactory id=9dfe7feb-419f-3797-b98f-c22ce726aecb
+2025-06-12T19:21:19.548+05:00 INFO  [main] Tomcat initialized with port 8081 (http)
+2025-06-12T19:21:19.555+05:00 INFO  [main] Starting service [Tomcat]
+2025-06-12T19:21:19.555+05:00 INFO  [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-06-12T19:21:19.587+05:00 INFO  [main] Initializing Spring embedded WebApplicationContext
+2025-06-12T19:21:19.587+05:00 INFO  [main] Root WebApplicationContext: initialization completed in 1507 ms
+2025-06-12T19:21:20.057+05:00 INFO  [main] HikariPool-1 - Starting...
+2025-06-12T19:21:20.209+05:00 INFO  [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e574f9c
+2025-06-12T19:21:20.210+05:00 INFO  [main] HikariPool-1 - Start completed.
+2025-06-12T19:21:20.253+05:00 INFO  [main] Database: jdbc:mysql://localhost:3306/order_service (MySQL 8.3)
+2025-06-12T19:21:20.268+05:00 WARN  [main] Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.1.
+2025-06-12T19:21:20.292+05:00 INFO  [main] Successfully validated 1 migration (execution time 00:00.018s)
+2025-06-12T19:21:20.309+05:00 INFO  [main] Current version of schema `order_service`: 1
+2025-06-12T19:21:20.310+05:00 INFO  [main] Schema `order_service` is up to date. No migration necessary.
+2025-06-12T19:21:20.386+05:00 INFO  [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T19:21:20.417+05:00 INFO  [main] HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-06-12T19:21:20.432+05:00 INFO  [main] HHH000026: Second-level cache disabled
+2025-06-12T19:21:20.576+05:00 INFO  [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T19:21:20.621+05:00 INFO  [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T19:21:21.083+05:00 INFO  [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T19:21:21.085+05:00 INFO  [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:21:21.757+05:00 WARN  [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T19:21:22.432+05:00 INFO  [main] Exposing 29 endpoints beneath base path '/actuator'
+2025-06-12T19:21:23.410+05:00 INFO  [main] Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T19:21:23.427+05:00 INFO  [main] Started OrderServiceApplication in 5.909 seconds (process running for 6.618)
+2025-06-12T19:21:23.557+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T19:21:23.558+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-06-12T19:21:23.561+05:00 INFO  [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
+2025-06-12T19:21:32.419+05:00 INFO  [http-nio-8081-exec-5] Start - Sending OrderPlacedEvent {"orderNumber": "d619debb-d6a2-4193-b67d-015fd1674720", "email": "testuser@gmail.com", "firstName": null, "lastName": null} to Kafka topic order-placed
+2025-06-12T19:21:32.437+05:00 INFO  [http-nio-8081-exec-5] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = order-service-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2025-06-12T19:21:32.467+05:00 INFO  [http-nio-8081-exec-5] initializing Kafka metrics collector
+2025-06-12T19:21:32.489+05:00 INFO  [http-nio-8081-exec-5] KafkaAvroSerializerConfig values: 
+	auto.register.schemas = true
+	avro.reflection.allow.null = false
+	avro.remove.java.properties = false
+	avro.use.logical.type.converters = false
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.cache.expiry.buffer.seconds = 300
+	bearer.auth.client.id = null
+	bearer.auth.client.secret = null
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.custom.provider.class = null
+	bearer.auth.identity.pool.id = null
+	bearer.auth.issuer.endpoint.url = null
+	bearer.auth.logical.cluster = null
+	bearer.auth.scope = null
+	bearer.auth.scope.claim.name = scope
+	bearer.auth.sub.claim.name = sub
+	bearer.auth.token = [hidden]
+	context.name.strategy = class io.confluent.kafka.serializers.context.NullContextNameStrategy
+	http.connect.timeout.ms = 60000
+	http.read.timeout.ms = 60000
+	id.compatibility.strict = true
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.cache.size = 1000
+	latest.cache.ttl.sec = -1
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	normalize.schemas = false
+	proxy.host = 
+	proxy.port = -1
+	rule.actions = []
+	rule.executors = []
+	rule.service.loader.enable = true
+	schema.format = null
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.engine.factory.class = null
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.certificate.chain = null
+	schema.registry.ssl.keystore.key = null
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLSv1.3
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.certificates = null
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://127.0.0.1:8085]
+	use.latest.version = false
+	use.latest.with.metadata = null
+	use.schema.id = -1
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2025-06-12T19:21:32.509+05:00 INFO  [http-nio-8081-exec-5] [Producer clientId=order-service-producer-1] Instantiated an idempotent producer.
+2025-06-12T19:21:32.529+05:00 INFO  [http-nio-8081-exec-5] These configurations '[schema.registry.url]' were supplied but are not used yet.
+2025-06-12T19:21:32.530+05:00 INFO  [http-nio-8081-exec-5] Kafka version: 3.8.1
+2025-06-12T19:21:32.530+05:00 INFO  [http-nio-8081-exec-5] Kafka commitId: 70d6ff42debf7e17
+2025-06-12T19:21:32.530+05:00 INFO  [http-nio-8081-exec-5] Kafka startTimeMs: 1749738092529
+2025-06-12T19:21:32.740+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Cluster ID: rn1sZhdCQ0CZ-49QHq7cHw
+2025-06-12T19:21:32.740+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] ProducerId set to 5008 with epoch 0
+2025-06-12T19:21:32.818+05:00 INFO  [http-nio-8081-exec-5] End - Sending OrderPlacedEvent {"orderNumber": "d619debb-d6a2-4193-b67d-015fd1674720", "email": "testuser@gmail.com", "firstName": null, "lastName": null} to Kafka topic order-placed
+2025-06-12T19:30:32.765+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Node -1 disconnected.

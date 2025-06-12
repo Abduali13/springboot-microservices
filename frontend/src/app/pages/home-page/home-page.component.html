@@ -4,14 +4,14 @@
       <h1 class="text-2xl font-bold mb-4">Products ({{ products.length }})</h1>
       @if (isAuthenticated) {
         <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 ml-4"
-                (click)="goToCreateProductPage()">
+                *ngIf="isAdmin" (click)="goToCreateProductPage()">
           Create Product
         </button>
       }
     </div>
     @if (products.length > 0) {
       @if (orderSuccess) {
-        <h4 class="text-green-500 font-bold">Order Placed Successfully</h4>
+        <h4 class="text-green-500 font-bold">Order Placed Successfully. Check your email please</h4>
       } @else if (orderFailed) {
         <h4 class="text-red-500 font-bold">Order Failed, please try again later</h4>
         @if(quantityIsNull) {

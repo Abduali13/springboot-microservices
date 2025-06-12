@@ -906,3 +906,5 @@ java.lang.RuntimeException: Error with Product with SKU Code galaxy_24
 2025-06-12T19:22:51.828+05:00 INFO  [main] Started ProductServiceApplicationTests in 3.398 seconds (process running for 3.948)
 2025-06-12T19:22:51.891+05:00 INFO  [main] Creating product ProductRequest[id=1, name=Product 1, description=Test Description, skuCode=sku123, price=100.0]
 2025-06-12T19:22:51.895+05:00 INFO  [main] Product created successfully
+2025-06-12T19:32:48.587+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:32:48.595+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete

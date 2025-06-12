@@ -1732,3 +1732,14 @@ org.apache.kafka.common.errors.InvalidConfigurationException: Schema being regis
 2025-06-12T19:21:32.740+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] ProducerId set to 5008 with epoch 0
 2025-06-12T19:21:32.818+05:00 INFO  [http-nio-8081-exec-5] End - Sending OrderPlacedEvent {"orderNumber": "d619debb-d6a2-4193-b67d-015fd1674720", "email": "testuser@gmail.com", "firstName": null, "lastName": null} to Kafka topic order-placed
 2025-06-12T19:30:32.765+05:00 INFO  [kafka-producer-network-thread | order-service-producer-1] [Producer clientId=order-service-producer-1] Node -1 disconnected.
+2025-06-12T19:32:48.592+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:32:48.603+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:32:48.619+05:00 INFO  [SpringApplicationShutdownHook] [Producer clientId=order-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-06-12T19:32:48.648+05:00 INFO  [SpringApplicationShutdownHook] Metrics scheduler closed
+2025-06-12T19:32:48.648+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-06-12T19:32:48.648+05:00 INFO  [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-06-12T19:32:48.648+05:00 INFO  [SpringApplicationShutdownHook] Metrics reporters closed
+2025-06-12T19:32:48.650+05:00 INFO  [SpringApplicationShutdownHook] App info kafka.producer for order-service-producer-1 unregistered
+2025-06-12T19:32:48.678+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:32:48.685+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:32:48.700+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

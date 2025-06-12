@@ -1072,3 +1072,8 @@ org.springframework.web.client.HttpServerErrorException$InternalServerError: 500
 2025-06-12T19:23:11.543+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-06-12T19:23:11.544+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
 2025-06-12T19:23:11.549+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2025-06-12T19:32:48.600+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:32:48.619+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
+2025-06-12T19:32:48.666+05:00 INFO  [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T19:32:48.674+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-12T19:32:48.694+05:00 INFO  [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

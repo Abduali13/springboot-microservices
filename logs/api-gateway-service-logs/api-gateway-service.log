@@ -352,3 +352,5 @@ org.springframework.web.client.HttpServerErrorException$InternalServerError: 500
 2025-06-12T19:18:32.057+05:00 INFO  [http-nio-9000-exec-1] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
 2025-06-12T19:20:09.464+05:00 INFO  [http-nio-9000-exec-2] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
 2025-06-12T19:21:32.138+05:00 INFO  [http-nio-9000-exec-4] Keycloak roles: [offline_access, default-roles-spring-microservices-security-realm, ADMIN, uma_authorization, CLIENT]
+2025-06-12T19:32:48.594+05:00 INFO  [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12T19:32:48.607+05:00 INFO  [tomcat-shutdown] Graceful shutdown complete
